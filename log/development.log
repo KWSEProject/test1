@@ -1145,3 +1145,768 @@ Started GET "/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000
 
 
 Started GET "/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" for 127.0.0.1 at 2015-05-12 23:53:22 +0900
+
+
+Started GET "/store/index" for 127.0.0.1 at 2015-05-12 23:57:49 +0900
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 258ms (Views: 257.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2015-05-12 23:58:24 +0900
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-33f0ed2473c415753e484d27c0b0b33577c21322fa42c9102466249d40297c2f.css?body=1" for 127.0.0.1 at 2015-05-12 23:58:24 +0900
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-12 23:58:24 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:24 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:24 +0900
+
+
+Started GET "/assets/store.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 23:58:24 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:24 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 23:58:24 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:24 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:24 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:24 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-12 23:58:31 +0900
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-12 23:58:32 +0900
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 124ms (Views: 122.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-33f0ed2473c415753e484d27c0b0b33577c21322fa42c9102466249d40297c2f.css?body=1" for 127.0.0.1 at 2015-05-12 23:58:32 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 23:58:32 +0900
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-12 23:58:32 +0900
+
+
+Started GET "/assets/store.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 23:58:32 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:32 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:32 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:32 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:32 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:32 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:32 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-12 23:58:33 +0900
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-12 23:58:33 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:33 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 23:58:33 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:33 +0900
+
+
+Started GET "/assets/products.self-33f0ed2473c415753e484d27c0b0b33577c21322fa42c9102466249d40297c2f.css?body=1" for 127.0.0.1 at 2015-05-12 23:58:33 +0900
+
+
+Started GET "/assets/store.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 23:58:33 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:33 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:33 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:33 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-12 23:58:33 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 00:00:17 +0900
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (3.0ms)[0m  [1mSELECT "products".* FROM "products"  ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 80ms (Views: 72.2ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/products.self-33f0ed2473c415753e484d27c0b0b33577c21322fa42c9102466249d40297c2f.css?body=1" for 127.0.0.1 at 2015-05-13 00:00:17 +0900
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-13 00:00:17 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-13 00:00:17 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 00:00:17 +0900
+
+
+Started GET "/assets/store.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-13 00:00:17 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:00:17 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 00:00:17 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:00:17 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 00:00:17 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 00:00:17 +0900
+
+
+Started GET "/assets/green_cloth-76f8b834d3bfe5736539d4dcbd8abcc1d2a2982771c3f9a5e6009a6ef2d9ed4f.PNG" for 127.0.0.1 at 2015-05-13 00:00:17 +0900
+
+
+Started GET "/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" for 127.0.0.1 at 2015-05-13 00:00:17 +0900
+
+
+Started GET "/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" for 127.0.0.1 at 2015-05-13 00:00:17 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 00:03:48 +0900
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"  ORDER BY "products"."title" ASC
+  Rendered store/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 181ms (Views: 179.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/products.self-33f0ed2473c415753e484d27c0b0b33577c21322fa42c9102466249d40297c2f.css?body=1" for 127.0.0.1 at 2015-05-13 00:03:48 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 00:03:48 +0900
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-13 00:03:48 +0900
+
+
+Started GET "/assets/store.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-13 00:03:48 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 00:03:48 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 00:03:48 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-13 00:03:48 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:03:48 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:03:48 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 00:03:48 +0900
+
+
+Started GET "/images/green_cloth.PNG" for 127.0.0.1 at 2015-05-13 00:03:49 +0900
+
+ActionController::RoutingError (No route matches [GET] "/images/green_cloth.PNG"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/ka02/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/ka02/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/ka02/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.5ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.3ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (16.0ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.4ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (37.1ms)
+
+
+Started GET "/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" for 127.0.0.1 at 2015-05-13 00:03:49 +0900
+
+
+Started GET "/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" for 127.0.0.1 at 2015-05-13 00:03:49 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 00:03:50 +0900
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"  ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-13 00:03:50 +0900
+
+
+Started GET "/assets/store.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-13 00:03:50 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-13 00:03:50 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 00:03:50 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:03:50 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 00:03:50 +0900
+
+
+Started GET "/assets/products.self-33f0ed2473c415753e484d27c0b0b33577c21322fa42c9102466249d40297c2f.css?body=1" for 127.0.0.1 at 2015-05-13 00:03:50 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:03:50 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 00:03:50 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 00:03:50 +0900
+
+
+Started GET "/images/green_cloth.PNG" for 127.0.0.1 at 2015-05-13 00:03:50 +0900
+
+ActionController::RoutingError (No route matches [GET] "/images/green_cloth.PNG"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/ka02/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/ka02/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/ka02/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.3ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.9ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/ka02/.rvm/gems/ruby-2.0.0-p643/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (32.2ms)
+
+
+Started GET "/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" for 127.0.0.1 at 2015-05-13 00:03:51 +0900
+
+
+Started GET "/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" for 127.0.0.1 at 2015-05-13 00:03:51 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 00:04:04 +0900
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"  ORDER BY "products"."title" ASC
+  Rendered store/index.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 77ms (Views: 75.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/products.self-33f0ed2473c415753e484d27c0b0b33577c21322fa42c9102466249d40297c2f.css?body=1" for 127.0.0.1 at 2015-05-13 00:04:04 +0900
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-13 00:04:04 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 00:04:04 +0900
+
+
+Started GET "/assets/store.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-13 00:04:04 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-13 00:04:04 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 00:04:04 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 00:04:04 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:04:04 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:04:04 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 00:04:04 +0900
+
+
+Started GET "/assets/green_cloth-ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2.PNG" for 127.0.0.1 at 2015-05-13 00:04:04 +0900
+
+
+Started GET "/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" for 127.0.0.1 at 2015-05-13 00:04:04 +0900
+
+
+Started GET "/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" for 127.0.0.1 at 2015-05-13 00:04:04 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 00:10:18 +0900
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT "products".* FROM "products"  ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 92ms (Views: 90.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/products.self-33f0ed2473c415753e484d27c0b0b33577c21322fa42c9102466249d40297c2f.css?body=1" for 127.0.0.1 at 2015-05-13 00:10:18 +0900
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-13 00:10:18 +0900
+
+
+Started GET "/assets/store.self-ab83ae5349dcc55df9ceef6732c076b50d2671ba38720ef646bf3a329b054ef5.css?body=1" for 127.0.0.1 at 2015-05-13 00:10:18 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 00:10:18 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-13 00:10:18 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 00:10:18 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 00:10:18 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:10:18 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:10:18 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 00:10:18 +0900
+
+
+Started GET "/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" for 127.0.0.1 at 2015-05-13 00:10:18 +0900
+
+
+Started GET "/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" for 127.0.0.1 at 2015-05-13 00:10:18 +0900
+
+
+Started GET "/assets/green_cloth-ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2.PNG" for 127.0.0.1 at 2015-05-13 00:10:18 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 00:10:57 +0900
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"  ORDER BY "products"."title" ASC
+  Rendered store/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 86ms (Views: 84.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/store.self-980cf193b570e414cc53c46eb9fdb4c41f61142987a9f0708ee7779db9360310.css?body=1" for 127.0.0.1 at 2015-05-13 00:10:58 +0900
+
+
+Started GET "/assets/products.self-33f0ed2473c415753e484d27c0b0b33577c21322fa42c9102466249d40297c2f.css?body=1" for 127.0.0.1 at 2015-05-13 00:10:58 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-13 00:10:58 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 00:10:58 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 00:10:58 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 00:10:58 +0900
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-13 00:10:58 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:10:58 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 00:10:58 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:10:58 +0900
+
+
+Started GET "/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" for 127.0.0.1 at 2015-05-13 00:10:58 +0900
+
+
+Started GET "/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" for 127.0.0.1 at 2015-05-13 00:10:58 +0900
+
+
+Started GET "/assets/green_cloth-ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2.PNG" for 127.0.0.1 at 2015-05-13 00:10:58 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 00:11:10 +0900
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"  ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (79.8ms)
+Completed 200 OK in 121ms (Views: 119.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/products.self-33f0ed2473c415753e484d27c0b0b33577c21322fa42c9102466249d40297c2f.css?body=1" for 127.0.0.1 at 2015-05-13 00:11:10 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-13 00:11:10 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 00:11:10 +0900
+
+
+Started GET "/assets/store.self-ab83ae5349dcc55df9ceef6732c076b50d2671ba38720ef646bf3a329b054ef5.css?body=1" for 127.0.0.1 at 2015-05-13 00:11:10 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 00:11:10 +0900
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-13 00:11:10 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 00:11:10 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:11:10 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:11:10 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 00:11:10 +0900
+
+
+Started GET "/assets/green_cloth-ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2.PNG" for 127.0.0.1 at 2015-05-13 00:11:10 +0900
+
+
+Started GET "/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" for 127.0.0.1 at 2015-05-13 00:11:10 +0900
+
+
+Started GET "/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" for 127.0.0.1 at 2015-05-13 00:11:10 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 00:14:58 +0900
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"  ORDER BY "products"."title" ASC
+  Rendered store/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 153ms (Views: 150.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/products.self-33f0ed2473c415753e484d27c0b0b33577c21322fa42c9102466249d40297c2f.css?body=1" for 127.0.0.1 at 2015-05-13 00:14:58 +0900
+
+
+Started GET "/assets/store.self-b67002ed0f19e95d3d93df6abb130060a5092c6daa36f6402fbd87411de980c3.css?body=1" for 127.0.0.1 at 2015-05-13 00:14:58 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-13 00:14:58 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 00:14:58 +0900
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-13 00:14:58 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 00:14:58 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 00:14:58 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 00:14:58 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:14:58 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:14:58 +0900
+
+
+Started GET "/assets/green_cloth-ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2.PNG" for 127.0.0.1 at 2015-05-13 00:14:58 +0900
+
+
+Started GET "/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" for 127.0.0.1 at 2015-05-13 00:14:58 +0900
+
+
+Started GET "/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" for 127.0.0.1 at 2015-05-13 00:14:58 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 00:15:10 +0900
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"  ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 54ms (Views: 52.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/products.self-33f0ed2473c415753e484d27c0b0b33577c21322fa42c9102466249d40297c2f.css?body=1" for 127.0.0.1 at 2015-05-13 00:15:10 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 00:15:10 +0900
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-13 00:15:10 +0900
+
+
+Started GET "/assets/store.self-ab83ae5349dcc55df9ceef6732c076b50d2671ba38720ef646bf3a329b054ef5.css?body=1" for 127.0.0.1 at 2015-05-13 00:15:10 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-13 00:15:10 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 00:15:10 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 00:15:10 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:15:10 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:15:10 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 00:15:10 +0900
+
+
+Started GET "/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" for 127.0.0.1 at 2015-05-13 00:15:10 +0900
+
+
+Started GET "/assets/green_cloth-ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2.PNG" for 127.0.0.1 at 2015-05-13 00:15:10 +0900
+
+
+Started GET "/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" for 127.0.0.1 at 2015-05-13 00:15:10 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 00:18:46 +0900
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"  ORDER BY "products"."title" ASC
+  Rendered store/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 191ms (Views: 189.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/products.self-a921e588c1a236645041e4cd6531983f5b020f0bb799966f89ecca1a01387d36.css?body=1" for 127.0.0.1 at 2015-05-13 00:18:46 +0900
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-13 00:18:46 +0900
+
+
+Started GET "/assets/store.self-ab83ae5349dcc55df9ceef6732c076b50d2671ba38720ef646bf3a329b054ef5.css?body=1" for 127.0.0.1 at 2015-05-13 00:18:46 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-13 00:18:46 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 00:18:46 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 00:18:46 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:18:46 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 00:18:46 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:18:46 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 00:18:46 +0900
+
+
+Started GET "/assets/green_cloth-ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2.PNG" for 127.0.0.1 at 2015-05-13 00:18:46 +0900
+
+
+Started GET "/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" for 127.0.0.1 at 2015-05-13 00:18:46 +0900
+
+
+Started GET "/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" for 127.0.0.1 at 2015-05-13 00:18:46 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 00:18:47 +0900
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"  ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 65ms (Views: 63.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-13 00:18:47 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 00:18:47 +0900
+
+
+Started GET "/assets/store.self-ab83ae5349dcc55df9ceef6732c076b50d2671ba38720ef646bf3a329b054ef5.css?body=1" for 127.0.0.1 at 2015-05-13 00:18:47 +0900
+
+
+Started GET "/assets/products.self-a921e588c1a236645041e4cd6531983f5b020f0bb799966f89ecca1a01387d36.css?body=1" for 127.0.0.1 at 2015-05-13 00:18:47 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 00:18:47 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-13 00:18:47 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 00:18:47 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:18:47 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:18:47 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 00:18:47 +0900
+
+
+Started GET "/assets/green_cloth-ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2.PNG" for 127.0.0.1 at 2015-05-13 00:18:47 +0900
+
+
+Started GET "/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" for 127.0.0.1 at 2015-05-13 00:18:47 +0900
+
+
+Started GET "/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" for 127.0.0.1 at 2015-05-13 00:18:47 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mSQL (6.1ms)[0m  DELETE FROM "products"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["title", "1st cloth"], ["description", "<p>this is green T-shirt. It has 95, 100 size.</p>"], ["image_url", "green_cloth.PNG"], ["price", 5000.0], ["created_at", "2015-05-12 15:22:40.032595"], ["updated_at", "2015-05-12 15:22:40.032595"]]
+  [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "2nd cloth"], ["description", "<p>this is pink skirt. It has free size</p>"], ["image_url", "pink_skirt.PNG"], ["price", 7000.0], ["created_at", "2015-05-12 15:22:40.039977"], ["updated_at", "2015-05-12 15:22:40.039977"]]
+  [1m[35m (3.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["title", "3rd cloth"], ["description", "<p>this is jin for man. Is has 30 to 35 size</p>"], ["image_url", "jin.PNG"], ["price", 20000.0], ["created_at", "2015-05-12 15:22:40.045719"], ["updated_at", "2015-05-12 15:22:40.045719"]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 00:22:43 +0900
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"  ORDER BY "products"."title" ASC
+  Rendered store/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 51ms (Views: 49.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/products.self-a921e588c1a236645041e4cd6531983f5b020f0bb799966f89ecca1a01387d36.css?body=1" for 127.0.0.1 at 2015-05-13 00:22:43 +0900
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-13 00:22:43 +0900
+
+
+Started GET "/assets/store.self-ab83ae5349dcc55df9ceef6732c076b50d2671ba38720ef646bf3a329b054ef5.css?body=1" for 127.0.0.1 at 2015-05-13 00:22:43 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 00:22:43 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-13 00:22:43 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 00:22:43 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 00:22:43 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:22:43 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-13 00:22:43 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 00:22:43 +0900
+
+
+Started GET "/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" for 127.0.0.1 at 2015-05-13 00:22:43 +0900
+
+
+Started GET "/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" for 127.0.0.1 at 2015-05-13 00:22:43 +0900
+
+
+Started GET "/assets/green_cloth-ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2.PNG" for 127.0.0.1 at 2015-05-13 00:22:43 +0900
