@@ -5,3 +5,20 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Product.delete_all
+
+Product.create!(title: '1st cloth',
+		description: 'this is green T-shirt. It has 95, 100 size.',
+		image_url: 'green_cloth.PNG',
+		price: 5000)
+
+Product.create!(title: '2nd cloth',
+		description: 'this is pink skirt. It has free size.',
+		image_url: 'pink_skirt.PNG',
+		price: 7000)
+
+Product.create!(title: '3rd cloth',
+		description: 'this is jin for man. Is has 30 to 35 size.',
+		image_url: 'jin.PNG',
+		price: 20000)
