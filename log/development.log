@@ -148,3 +148,49 @@ Processing by ProductsController#show as HTML
 Completed 200 OK in 57ms (Views: 54.8ms | ActiveRecord: 0.2ms)
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-12 07:06:11 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/sskui12/.rvm/gems/ruby-2.0.0-p598/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 68ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-05-12 07:06:25 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 349ms (Views: 344.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2015-05-12 07:09:13 -0700
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (31.1ms)
+  Rendered products/new.html.erb within layouts/application (38.6ms)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-05-12 07:09:37 -0700
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oqqtq3KD1LDhZb4VC+Qv7k2G4eko1YUT7n/u77ThfujyKY6stexFu8E7orxUuKK3UnA/ypvvsV3CMiTKUCSfiQ==", "product"=>{"title"=>"ssibal", "description"=>"ssogong", "image_url"=>"fuckyou", "price"=>"100,000,00won"}, "commit"=>"Create Product"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["title", "ssibal"], ["description", "ssogong"], ["image_url", "fuckyou"], ["price", 100.0], ["created_at", "2015-05-12 14:09:37.870440"], ["updated_at", "2015-05-12 14:09:37.870440"]]
+  [1m[36m (9.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/products/3
+Completed 302 Found in 98ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/products/3" for 127.0.0.1 at 2015-05-12 07:09:37 -0700
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered products/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 35.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-05-12 07:09:40 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 46ms (Views: 43.2ms | ActiveRecord: 0.2ms)
