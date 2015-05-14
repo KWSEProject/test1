@@ -2612,3 +2612,75 @@ Started GET "/login" for 127.0.0.1 at 2015-05-13 00:45:51 +0900
 Processing by SessionsController#new as HTML
   Rendered sessions/new.html.erb within layouts/application (0.9ms)
 Completed 200 OK in 54ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 00:47:45 +0900
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"  ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-14 13:32:41 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"  ORDER BY "products"."title" ASC
+  Rendered store/index.html.erb within layouts/application (258.6ms)
+Completed 200 OK in 474ms (Views: 454.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/admin.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/products.self-a921e588c1a236645041e4cd6531983f5b020f0bb799966f89ecca1a01387d36.css?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/scaffolds.self-e3cdbdd8eee07baa6bd199f3c3048f5d7d5f1c9e9fc93340e0c335697abfd6a6.css?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/store.self-ab83ae5349dcc55df9ceef6732c076b50d2671ba38720ef646bf3a329b054ef5.css?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/store.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/green_cloth-ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2.PNG" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
+
+
+Started GET "/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" for 127.0.0.1 at 2015-05-14 13:32:42 +0900
