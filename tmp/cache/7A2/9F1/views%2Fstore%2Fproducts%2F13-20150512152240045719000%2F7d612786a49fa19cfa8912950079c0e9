@@ -1,0 +1,28 @@
+o: ActiveSupport::Cache::Entry:@valueI"Õ			<div class="entry">
+				<img src="/assets/green_cloth-ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2.PNG" alt="Green cloth ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2" />
+				<h2>1st cloth</h2>
+				<p>this is green T-shirt. It has 95, 100 size.</p>
+				<div class="price_line">
+					<span class="price">$5,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=11" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="Fa3X/BANxJqA6UEzYQTmupqqj+XzTmPKP3NN3gqnyvA1HTlMLIhisZFGGCnGcDYL8p6eIpE4z00/uQPiTurwog==" /></form>
+				</div>
+			</div>
+			<div class="entry">
+				<img src="/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" alt="Pink skirt 5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6" />
+				<h2>2nd cloth</h2>
+				<p>this is pink skirt. It has free size</p>
+				<div class="price_line">
+					<span class="price">$7,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=12" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="/h6OslHebmReJtT+LnSc0CUxu+J6rHMbIkZl/pmG86nermACbVvIT0+JjeSJAExhTQWqJRja35wijCvC3cvJ+w==" /></form>
+				</div>
+			</div>
+			<div class="entry">
+				<img src="/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" alt="Jin 8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367" />
+				<h2>3rd cloth</h2>
+				<p>this is jin for man. Is has 30 to 35 size</p>
+				<div class="price_line">
+					<span class="price">$20,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=13" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="0Ddi1rpnOm9zsPbKyS3DXBLTyKdxSU0AUVASEyITuJLwh4xmhuKcRGIfr9BuWRPteufZYBM/4YdRmlwvZl6CwA==" /></form>
+				</div>
+			</div>
+:ET:@created_atf1431864434.638431:@expires_in0
