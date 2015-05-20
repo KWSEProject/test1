@@ -1,6 +1,6 @@
 class LineItemsController < ApplicationController
   include CurrentCart
-  before_action :set_cart, only: [:create]
+  before_action :set_cart, only: [:new, :create]
   before_action :set_line_item, only: [:show, :edit, :update, :destroy]
 
   # GET /line_items
@@ -16,7 +16,12 @@ class LineItemsController < ApplicationController
 
   # GET /line_items/new
   def new
-    @line_item = LineItem.new
+	if @cart.line_items.empty?
+		redirect_to store_url, notice: "Your cart is empty"
+		return
+	end
+
+	@line_items = LineItem.new
   end
 
   # GET /line_items/1/edit
@@ -33,10 +38,12 @@ class LineItemsController < ApplicationController
       if @line_item.save
 		  format.html { redirect_to store_url }
 		  format.js   { @current_item = @line_item }
-        format.json { render :show, status: :created, location: @line_item }
+        format.json { render action: 'show',
+			  status: :created, location: @line_item }
       else
-        format.html { render :new }
-        format.json { render json: @line_item.errors, status: :unprocessable_entity }
+        format.html { render action: 'new' }
+        format.json { render json: @line_item.errors,
+			  status: :unprocessable_entity }
       end
     end
   end
