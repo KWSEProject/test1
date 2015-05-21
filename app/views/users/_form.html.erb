@@ -1,3 +1,4 @@
+#encoding=utf-8
 <div class="depot_form">
 
 <%= form_for @user do |f| %>
@@ -17,16 +18,16 @@
   <legend>Enter User Details</legend>
 
   <div class="field">
-    <%= f.label :name, 'Name:'  %><br>
-    <%= f.text_field :name, size: 40 %>
+    <%= f.label :name, '이름:'  %><br>
+    <%= f.text_field :name, size: 30 %>
   </div>
   <div class="field">
-    <%= f.label :password, 'Password:' %><br>
-    <%= f.password_field :password, size: 40 %>
+    <%= f.label :password, '비밀번호:' %><br>
+    <%= f.password_field :password, size: 30 %>
   </div>
   <div class="field">
-    <%= f.label :password_confirmation, 'Confirm:' %><br>
-    <%= f.password_field :password_confirmation, size: 40 %>
+    <%= f.label :password_confirmation, '비밀번호확인:' %><br>
+    <%= f.password_field :password_confirmation, size: 30 %>
   </div>
   <div class="actions">
     <%= f.submit %>

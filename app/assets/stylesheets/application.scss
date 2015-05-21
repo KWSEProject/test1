@@ -14,19 +14,26 @@
 	*= require_tree .
 	*/
 
+#login{
+	float: right;
+} 
+
+
 #banner{
 	img {
 		float: top;
 		width: 70px;
 		height: 70px;
-	}	  
+		cursor:pointer;
+	}
+
 	background: #FFFFFF;
-	padding: 70px;
-	border-bottom: 2px solid;
+	padding: 30px;
+	border-bottom: 0px ;
 	font: small-caps 40px/40px "Times New Roman", serif;
 	color: #000000;
 	text-align: center;
-}
+} 
 
 #notice {
 	color: #000 !important;
@@ -38,7 +45,7 @@
 }
 
 #columns {
-	background: #FFD9FA;
+	background: #00FF00;
 
 	#main {
 		margin-left: 17em;
@@ -84,8 +91,9 @@
 	#side {
 		float: left;
 		padding: 1em 2em;
+		height:27em;
 		width: 13em;
-		background: #FFD9FA;
+		background: #FFFFFF;
 
 		form, div {
 			display: inline;
@@ -109,6 +117,39 @@
 			padding: 0;
 			li {
 				list-style: none;
+				a {
+					color: #000000;
+					font-size: small;
+				}
+			}
+		}
+	}
+}
+#rows{
+	background: #FFD9FA;
+	
+
+	#side2 {
+		float: left;
+		width: 110em;
+		border-bottom: 2px solid;
+		background: #FFFFFF;
+
+		form, div {
+			display: inline;
+		}
+
+		input {
+			font-size: small;
+		}
+
+		ul {
+			float: left;
+			padding: 0;
+			li {
+				float: left;
+				list-style: none;
+				padding: 10px;
 				a {
 					color: #000000;
 					font-size: small;
