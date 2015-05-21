@@ -32697,3 +32697,94 @@ Completed 200 OK in 436ms (Views: 433.9ms | ActiveRecord: 0.3ms)
             WHERE name='index_line_items_on_product_id' AND type='index'
 
 >>>>>>> 2bd88611e31b013f319354b9e0b4c404c3c05c75
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 1"], ["address", "1 Main Street"], ["email", "customer-1@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.732735"], ["updated_at", "2015-05-21 05:35:07.732735"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 2"], ["address", "2 Main Street"], ["email", "customer-2@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.738401"], ["updated_at", "2015-05-21 05:35:07.738401"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 3"], ["address", "3 Main Street"], ["email", "customer-3@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.740357"], ["updated_at", "2015-05-21 05:35:07.740357"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 4"], ["address", "4 Main Street"], ["email", "customer-4@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.742070"], ["updated_at", "2015-05-21 05:35:07.742070"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 5"], ["address", "5 Main Street"], ["email", "customer-5@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.743712"], ["updated_at", "2015-05-21 05:35:07.743712"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 6"], ["address", "6 Main Street"], ["email", "customer-6@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.745262"], ["updated_at", "2015-05-21 05:35:07.745262"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 7"], ["address", "7 Main Street"], ["email", "customer-7@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.746809"], ["updated_at", "2015-05-21 05:35:07.746809"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 8"], ["address", "8 Main Street"], ["email", "customer-8@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.748336"], ["updated_at", "2015-05-21 05:35:07.748336"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 9"], ["address", "9 Main Street"], ["email", "customer-9@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.749842"], ["updated_at", "2015-05-21 05:35:07.749842"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 10"], ["address", "10 Main Street"], ["email", "customer-10@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.751533"], ["updated_at", "2015-05-21 05:35:07.751533"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 11"], ["address", "11 Main Street"], ["email", "customer-11@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.753357"], ["updated_at", "2015-05-21 05:35:07.753357"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 12"], ["address", "12 Main Street"], ["email", "customer-12@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.754959"], ["updated_at", "2015-05-21 05:35:07.754959"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 13"], ["address", "13 Main Street"], ["email", "customer-13@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.756549"], ["updated_at", "2015-05-21 05:35:07.756549"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 14"], ["address", "14 Main Street"], ["email", "customer-14@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.758135"], ["updated_at", "2015-05-21 05:35:07.758135"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 15"], ["address", "15 Main Street"], ["email", "customer-15@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.759703"], ["updated_at", "2015-05-21 05:35:07.759703"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 16"], ["address", "16 Main Street"], ["email", "customer-16@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.761311"], ["updated_at", "2015-05-21 05:35:07.761311"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 17"], ["address", "17 Main Street"], ["email", "customer-17@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.762844"], ["updated_at", "2015-05-21 05:35:07.762844"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 18"], ["address", "18 Main Street"], ["email", "customer-18@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.764497"], ["updated_at", "2015-05-21 05:35:07.764497"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 19"], ["address", "19 Main Street"], ["email", "customer-19@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.766133"], ["updated_at", "2015-05-21 05:35:07.766133"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 20"], ["address", "20 Main Street"], ["email", "customer-20@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.767762"], ["updated_at", "2015-05-21 05:35:07.767762"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 21"], ["address", "21 Main Street"], ["email", "customer-21@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.769407"], ["updated_at", "2015-05-21 05:35:07.769407"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 22"], ["address", "22 Main Street"], ["email", "customer-22@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.771151"], ["updated_at", "2015-05-21 05:35:07.771151"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 23"], ["address", "23 Main Street"], ["email", "customer-23@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.772811"], ["updated_at", "2015-05-21 05:35:07.772811"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 24"], ["address", "24 Main Street"], ["email", "customer-24@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.774489"], ["updated_at", "2015-05-21 05:35:07.774489"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 25"], ["address", "25 Main Street"], ["email", "customer-25@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.776030"], ["updated_at", "2015-05-21 05:35:07.776030"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 26"], ["address", "26 Main Street"], ["email", "customer-26@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.777496"], ["updated_at", "2015-05-21 05:35:07.777496"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 27"], ["address", "27 Main Street"], ["email", "customer-27@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.779075"], ["updated_at", "2015-05-21 05:35:07.779075"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 28"], ["address", "28 Main Street"], ["email", "customer-28@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.780745"], ["updated_at", "2015-05-21 05:35:07.780745"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Customer 29"], ["address", "29 Main Street"], ["email", "customer-29@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.782544"], ["updated_at", "2015-05-21 05:35:07.782544"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("name", "address", "email", "pay_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Customer 30"], ["address", "30 Main Street"], ["email", "customer-30@example.com"], ["pay_type", "Check"], ["created_at", "2015-05-21 05:35:07.784618"], ["updated_at", "2015-05-21 05:35:07.784618"]]
+  [1m[35m (7.1ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 22:38:08 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  ORDER BY "products"."updated_at" DESC LIMIT 1
+  Cache digest for app/views/store/index.html.erb: 7d612786a49fa19cfa8912950079c0e9
+Read fragment views/store/products/13-20150512152240045719000/7d612786a49fa19cfa8912950079c0e9 (0.4ms)
+  Rendered store/index.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 873ms (Views: 845.9ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-05-20 22:38:10 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"QppQ87rvZFroePy9IjQiajyDalWSG8Iu7Po8NZzQ7H45rvqE490oJ97M3i7IvzXX50iW5UmSbXdXM+9MYZ8S0g=="}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 176ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-05-20 22:38:10 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 476ms (Views: 474.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-05-20 22:38:15 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v+IzZk0M76nXek+we/e4Qu603rEHsentIVBMK8lY2MfE1pkRFD6j1OHObSORfK//NX8iAdw4RrSamZ9SNBcmaw==", "name"=>"jin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = ? LIMIT 1  [["name", "jin"]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 100ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-05-20 22:38:15 -0700
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "orders"
+  Rendered admin/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 439ms (Views: 429.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-20 22:38:17 -0700
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mOrder Load (1.9ms)[0m  SELECT  "orders".* FROM "orders"  ORDER BY created_at desc LIMIT 30 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (183.8ms)
+Completed 200 OK in 602ms (Views: 592.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/orders?page=2" for 127.0.0.1 at 2015-05-20 22:38:25 -0700
+Processing by OrdersController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mOrder Load (4.4ms)[0m  [1mSELECT  "orders".* FROM "orders"  ORDER BY created_at desc LIMIT 30 OFFSET 30[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (72.5ms)
+Completed 200 OK in 486ms (Views: 475.7ms | ActiveRecord: 5.2ms)
