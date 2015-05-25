@@ -1,0 +1,10 @@
+o: ActiveSupport::Cache::Entry:@valueI"			<div class="entry">
+				<img src="/home/mun/Sogong/test1/app/assets/images/green_cloth.PNG" alt="Green cloth" />
+				<h2>Test Title</h2>
+				Test Description
+				<div class="price_line">
+					<span class="price"></span>
+					<form class="button_to" method="post" action="/line_items?product_id=14" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="FDBW6CU/jlVxd+A4RJnLYZf5Tc6uKer0GbgSvO+RzUshsg06gi62i+Kp1I+NHV2XVBzQhFdsx/d/ynCPuTWMFQ==" /></form>
+				</div>
+			</div>
+:ET:@created_atf1432459803.505231:@expires_in0

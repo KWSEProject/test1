@@ -1,0 +1,10 @@
+o: ActiveSupport::Cache::Entry:@valueI"¥			<div class="entry">
+				<img src="/assets/green_cloth-ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2.PNG" alt="Green cloth ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2" />
+				<h2>1st cloth</h2>
+				<p>this is green T-shirt. It has 95, 100 size.</p>
+				<div class="price_line">
+					<span class="price">$5,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=15" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="9hVTyKNQq8Lh7umVYJjnHCaYObdO2lzpk+HxkqDBecANj3qQ/A7TQCowgohAY8rUHk//Osx+QjdTBfAqCuzhMg==" /></form>
+				</div>
+			</div>
+:ET:@created_atf1432475816.0559676:@expires_in0

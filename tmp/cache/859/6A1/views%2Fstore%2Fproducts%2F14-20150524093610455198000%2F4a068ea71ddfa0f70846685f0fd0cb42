@@ -1,0 +1,38 @@
+o: ActiveSupport::Cache::Entry:@valueI"N
+			<div class="entry">
+				<img src="/assets/green_cloth-ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2.PNG" alt="Green cloth ab1f7e40e363cafb17e6b619c7946895a6ff4fb1910ae47b3934f2488a9b53b2" />
+				<h2>1st cloth</h2>
+				<p>this is green T-shirt. It has 95, 100 size.</p>
+				<div class="price_line">
+					<span class="price">$5,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=11" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="7ioD5OWatlkg+5geXGUYd1r5Z+8bWucRYuyTDCL4LNMVsCq8usTO2+sl8wN8njW/Yi6hYpn++c+iCJK0iNW0IQ==" /></form>
+				</div>
+			</div>
+			<div class="entry">
+				<img src="/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" alt="Pink skirt 5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6" />
+				<h2>2nd cloth</h2>
+				<p>this is pink skirt. It has free size</p>
+				<div class="price_line">
+					<span class="price">$7,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=12" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="+B0Vm4b7HUclJ7F4ZgIsw5hdxGMaNaMPeSQuh2JTCL4DhzzD2aVlxe752mVG+QELoIoC7piRvdG5wC8/yH6QTA==" /></form>
+				</div>
+			</div>
+			<div class="entry">
+				<img src="/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" alt="Jin 8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367" />
+				<h2>3rd cloth</h2>
+				<p>this is jin for man. Is has 30 to 35 size</p>
+				<div class="price_line">
+					<span class="price">$20,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=13" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="+ail3B9wbdy9SN9Bs5+L4IytGee3esCP2bBJUCUqK9kCMoyEQC4VXnaWtFyTZKYotHrfajXe3lEZVEjojwezKw==" /></form>
+				</div>
+			</div>
+			<div class="entry">
+				<img src="/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" alt="Pink skirt 5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6" />
+				<h2>Test Title</h2>
+				Test Description
+				<div class="price_line">
+					<span class="price"></span>
+					<form class="button_to" method="post" action="/line_items?product_id=14" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="dc1UVKjoTS8a2qA/h+2Vt0TcPPGXWYLiyxFAW4TBLUOOV30M97Y1rdEEyyKnFrh/fAv6fBX9nDwL9UHjLuy1sQ==" /></form>
+				</div>
+			</div>
+:ET:@created_atf1432471303.9489903:@expires_in0

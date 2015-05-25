@@ -1,0 +1,10 @@
+o: ActiveSupport::Cache::Entry:@valueI"y			<div class="entry">
+				<img src="/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" alt="Pink skirt 5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6" />
+				<h2>Test Title</h2>
+				Test Description
+				<div class="price_line">
+					<span class="price"></span>
+					<form class="button_to" method="post" action="/line_items?product_id=14" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="6bhP75bIY7fr4cW9vBKCmALVSEqnEI0xJb9oHD4JGu+aJDito5o0vAV0ZGhGfnrvyn88L3xqxSjM/9LqRcz+9w==" /></form>
+				</div>
+			</div>
+:ET:@created_atf1432460172.1291096:@expires_in0

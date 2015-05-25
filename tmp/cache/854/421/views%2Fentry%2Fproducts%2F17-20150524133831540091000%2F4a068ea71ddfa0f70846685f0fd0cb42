@@ -1,0 +1,10 @@
+o: ActiveSupport::Cache::Entry:@valueI"”			<div class="entry">
+				<img src="/assets/jin-8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367.PNG" alt="Jin 8cb4ae7a6fa19ae839921af40ec78203b596d8e1014f4e7f9c12b42f7ffef367" />
+				<h2>3rd cloth</h2>
+				<p>this is jin for man. Is has 30 to 35 size</p>
+				<div class="price_line">
+					<span class="price">$20,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=17" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="zNKP9FWq50PW4wQVPBYgjPEtaXEEMtxKmkasX9x800o3SKasCvSfwR09bwgc7Q1Eyfqv/IaWwpRaoq3ndlFLuA==" /></form>
+				</div>
+			</div>
+:ET:@created_atf1432475812.5329084:@expires_in0
