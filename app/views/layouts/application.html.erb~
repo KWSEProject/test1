@@ -45,26 +45,23 @@
 					
 			<% end %>
 		</div>
+	</div>
 
-			<div id="columns">
-				<div id="side">
-					<div id="cart">
-						<%= @cart%>
-					</div>
-					<ul>
-						<li><a href="http://www.naver.com">Tee</a></li>
-						<li><a>Shirt</a></li>
-						<li><a>Pant</a></li>
-						<li><a>Accessory</a></li>
-					</ul>
-				</div>
-
-				
-			</div>
+	<div id="columns">
+		<div id="side">
+			<ul>
+				<li><a href="/TOP">TOP</a></li>
+				<li><a href="/PANT">PANT</a></li>
+				<li><a href="/ACC">ACC</a></li>
+				<li><a href="/SHOES">SHOES</a></li>
+			</ul>
+		</div>
 
 		<div id="main">
 			<%= yield %>
 		</div>
 	</div>
+
+
 </body>
 </html>

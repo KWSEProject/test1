@@ -7,6 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Product.delete_all
+Top.delete_all
 
 Product.create!(title: '1st cloth',
 		description:
@@ -22,4 +23,15 @@ Product.create!(title: '2nd cloth',
 Product.create!(title: '3rd cloth',
 		description: %{<p>this is jin for man. Is has 30 to 35 size</p>},
 		image_url: 'jin.PNG',
+		price: 20000)
+
+Top.create!(main_title: 'T-Shirt',
+		description: %{<p>This is T-shirt. Is has 30 to 35 size</p>},
+		stock: 5,
+		main_image_url: 'main_image.PNG',
+		image_url1: 'image_url1.PNG',				
+		image_url2: 'image_url2.PNG',
+		image_url3: 'image_url3.PNG',
+		image_url4: 'image_url4.PNG',
+		image_url5: 'image_url5.PNG',
 		price: 20000)
