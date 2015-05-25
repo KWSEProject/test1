@@ -1,0 +1,12 @@
+<div style="background-color:#e9eaed;">
+	<h1>Edit post</h1>
+	<form action="/qna/edit_process" method="post">
+		<input type="hidden" name="id" value="<%= @post_edit.id %>">
+			Name: <input type="text" name="writer_edit" value="<%= @post_edit.name %>"><br>
+			Question:<br>
+			<textarea name="question_edit" cols="40" rows="5"><%= @post_edit.question %></textarea>
+		<input type="submit" value="edit">
+	</form>
+</div>
+
+<h4><%= flash[:alert] %></h4>

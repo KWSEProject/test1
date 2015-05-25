@@ -1,14 +1,22 @@
 Rails.application.routes.draw do
+
   get 'admin' => 'admin#index'
   controller :sessions do
   	get 'login' => :new
 	post 'login' => :create
 	delete 'logout' => :destroy
+	get 'qna/list' => 'qna#list'
+  	post 'qna/add_process' => 'qna#add_process'
+	get 'qna/add' => 'qna#add'
+	get 'qna/add/:id' => 'qna#edit'
+	post 'qna/edit_process' => 'qna#edit_process'
+	get "qna/delete/:id" => 'qna#delete'
+	post 'qna/delete_process' => 'qna#delete_process'
   end
 
+  
   get "/:category" => 'store#posts_category'
   get "store/show/:id" => 'store#show'
-
 
   get 'sessions/create'
   get 'sessions/destroy'
