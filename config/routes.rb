@@ -1,24 +1,14 @@
 Rails.application.routes.draw do
-  get "/:category" => 'store#posts_category'
-  get "store/show/:id" => 'store#show'
-
-
-
-
-
-
-
-
-
-
-
-
   get 'admin' => 'admin#index'
   controller :sessions do
   	get 'login' => :new
 	post 'login' => :create
 	delete 'logout' => :destroy
   end
+
+  get "/:category" => 'store#posts_category'
+  get "store/show/:id" => 'store#show'
+
 
   get 'sessions/create'
   get 'sessions/destroy'
