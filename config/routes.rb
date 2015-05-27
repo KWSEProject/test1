@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 	post 'qna/edit_process' => 'qna#edit_process'
 	get "qna/delete/:id" => 'qna#delete'
 	post 'qna/delete_process' => 'qna#delete_process'
+	get "qna/qna/write_comment/:id" => 'qna#write_comment'
+	post 'qna/write_comment_complete' => 'qna#write_comment_complete'
   end
 
   
