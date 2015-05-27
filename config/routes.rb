@@ -16,9 +16,6 @@ Rails.application.routes.draw do
 	get "qna/qna/write_comment/:id" => 'qna#write_comment'
 	post 'qna/write_comment_complete' => 'qna#write_comment_complete'
   end
-
-  get "/:category" => 'store#posts_category'
-  get "store/show/:id" => 'store#show'
   
   
   get "user/new" => 'user#new'
@@ -30,11 +27,13 @@ Rails.application.routes.draw do
   resources :carts
 
   get "store/index"
+  
   resources :products do
 	get :who_bought, on: :member
 
-
   end
+  get "/:category" => 'store#posts_category'
+  get "store/show/:id" => 'store#show'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
