@@ -1,0 +1,10 @@
+o: ActiveSupport::Cache::Entry:@valueI"ö			<div class="entry">
+				<img src="/images/main_image.PNG" alt="Main image" />
+				<h2><a href="store/show/11">Click!!</a></h2>
+				THIS IS TOP1
+				<div class="price_line">
+					<span class="price">$20,000.00</span>
+					
+				</div>
+			</div>
+:ET:@created_atf1432699649.0599186:@expires_in0

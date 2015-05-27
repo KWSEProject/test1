@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
 
   get 'admin' => 'admin#index'
+  
   controller :sessions do
   	get 'login' => :new
 	post 'login' => :create
 	delete 'logout' => :destroy
-	get 'qna/list' => 'qna#list'
   	post 'qna/add_process' => 'qna#add_process'
+	get 'qna/list' => 'qna#list'
 	get 'qna/add' => 'qna#add'
 	get 'qna/add/:id' => 'qna#edit'
 	post 'qna/edit_process' => 'qna#edit_process'
@@ -14,10 +15,11 @@ Rails.application.routes.draw do
 	post 'qna/delete_process' => 'qna#delete_process'
   end
 
-  
   get "/:category" => 'store#posts_category'
   get "store/show/:id" => 'store#show'
-
+  
+  
+  get "user/new" => 'user#new'
   get 'sessions/create'
   get 'sessions/destroy'
   resources :users

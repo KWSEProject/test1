@@ -1,0 +1,10 @@
+o: ActiveSupport::Cache::Entry:@valueI"¶			<div class="entry">
+				<img src="/assets/image_url1-ef9dad68f46a49fc419ddbb5b864d28d2b355bcdca663b0d83114f577778b91b.PNG" alt="Image url1 ef9dad68f46a49fc419ddbb5b864d28d2b355bcdca663b0d83114f577778b91b" />
+				<h2><a href="store/show/2">Click!!</a></h2>
+				<p>This is T-shirt. Is has 30 to 35 size</p>
+				<div class="price_line">
+					<span class="price">$20,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=2" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="zvrYTgvTLrc/JHbqBe5NKFjOxL6lXlzssgl5eTai9r81YPEWVI1WNfT6HfclFWDgYBkCMyf6QjJy7XjBnI9uTQ==" /></form>
+				</div>
+			</div>
+:ET:@created_atf1432694853.2518325:@expires_in0

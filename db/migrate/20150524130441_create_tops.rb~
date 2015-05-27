@@ -21,5 +21,7 @@ class CreateTops < ActiveRecord::Migration
 
       t.timestamps null: false
     end
+	
+    execute "ALTER TABLE tops auto_increment=1;"
   end
 end

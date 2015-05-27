@@ -9,6 +9,7 @@
 Product.delete_all
 Top.delete_all
 
+
 Product.create!(title: '1st cloth',
 		description:
 		%{<p>this is green T-shirt. It has 95, 100 size.</p>},		
@@ -25,8 +26,8 @@ Product.create!(title: '3rd cloth',
 		image_url: 'jin.PNG',
 		price: 20000)
 
-Top.create!(main_title: 'T-Shirt',
-		description: %{<p>This is T-shirt. Is has 30 to 35 size</p>},
+Top.create!(main_title: 'TOP1',
+		description: %{THIS IS TOP1},
 		stock: 5,
 		main_image_url: 'main_image.PNG',
 		image_url1: 'image_url1.PNG',				
@@ -34,4 +35,15 @@ Top.create!(main_title: 'T-Shirt',
 		image_url3: 'image_url3.PNG',
 		image_url4: 'image_url4.PNG',
 		image_url5: 'image_url5.PNG',
+		price: 20000)
+
+Top.create!(main_title: 'TOP2',
+		description: %{THIS TOP2},
+		stock: 10,
+		main_image_url: 'Top_2_1.PNG',
+		image_url1: 'Top_2_2.PNG',				
+		image_url2: 'Top_2_3.PNG',
+		image_url3: 'Top_2_4.PNG',
+		image_url4: 'Top_2_5.PNG',
+		image_url5: 'Top_2_6.PNG',
 		price: 20000)
