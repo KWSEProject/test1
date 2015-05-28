@@ -3,24 +3,31 @@ Rails.application.routes.draw do
   post 'email/email_send' => 'email#email_send'
 
   get 'admin' => 'admin#index'
+  
   controller :sessions do
   	get 'login' => :new
 	post 'login' => :create
 	delete 'logout' => :destroy
-	get 'qna/list' => 'qna#list'
   	post 'qna/add_process' => 'qna#add_process'
+	get 'qna/list' => 'qna#list'
 	get 'qna/add' => 'qna#add'
 	get 'qna/add/:id' => 'qna#edit'
 	post 'qna/edit_process' => 'qna#edit_process'
 	get "qna/delete/:id" => 'qna#delete'
 	post 'qna/delete_process' => 'qna#delete_process'
+	get "qna/qna/write_comment/:id" => 'qna#write_comment'
+	post 'qna/write_comment_complete' => 'qna#write_comment_complete'
   end
-
   
+<<<<<<< HEAD
   get "/:category" => 'store#posts_category'
   get "store/show/:id" => 'store#show'
 
 
+=======
+  
+  get "user/new" => 'user#new'
+>>>>>>> Mun
   get 'sessions/create'
   get 'sessions/destroy'
   resources :users
@@ -29,11 +36,13 @@ Rails.application.routes.draw do
   resources :carts
 
   get "store/index"
+  
   resources :products do
 	get :who_bought, on: :member
 
-
   end
+  get "/:category" => 'store#posts_category'
+  get "store/show/:id" => 'store#show'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

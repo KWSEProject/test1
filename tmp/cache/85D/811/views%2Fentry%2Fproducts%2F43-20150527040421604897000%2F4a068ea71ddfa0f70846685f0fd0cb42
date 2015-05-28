@@ -1,0 +1,10 @@
+o: ActiveSupport::Cache::Entry:@valueI"œ			<div class="entry">
+				<img src="/assets/pink_skirt-5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6.PNG" alt="Pink skirt 5fd7fb1e2731e163a195c5f2d427386ea95851711478c000579a8d36c6abb1c6" />
+				<h2>2nd cloth</h2>
+				<p>this is pink skirt. It has free size</p>
+				<div class="price_line">
+					<span class="price">$7,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=43" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="r3N3eouV1FNLvUBN7LuK7R7ym0AeW1kie3bA/w7OYj1U6V4i1Mus0YBjK1DMQKclJiVdzZz/R/y7ksFHpOP6zw==" /></form>
+				</div>
+			</div>
+:ET:@created_atf1432699768.910003:@expires_in0
