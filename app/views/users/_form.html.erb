@@ -29,6 +29,10 @@
     <%= f.label :password_confirmation, '비밀번호확인:' %><br>
     <%= f.password_field :password_confirmation, size: 30 %>
   </div>
+  <div class="field">
+	<%= f.label :address, 'address:' %><br>
+	<%= f.text_field :address, size: 80 %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
