@@ -19,15 +19,12 @@ Rails.application.routes.draw do
 	post 'qna/write_comment_complete' => 'qna#write_comment_complete'
   end
   
-<<<<<<< HEAD
+
   get "/:category" => 'store#posts_category'
   get "store/show/:id" => 'store#show'
-
-
-=======
   
   get "user/new" => 'user#new'
->>>>>>> Mun
+
   get 'sessions/create'
   get 'sessions/destroy'
   resources :users
