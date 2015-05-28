@@ -4,5 +4,5 @@
 
 <h1>Cloth Catalog</h1>
 
-<%= render :partial => "foods/posts" %>
+<%= render :partial => "store/posts" %>
 

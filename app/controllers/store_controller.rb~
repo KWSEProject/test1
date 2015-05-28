@@ -10,15 +10,15 @@ class StoreController < ApplicationController
 	def posts_category
 		case params[:category]
 		when "TOP"
-			@category = "1st cloth"
+			@products = Top.all
 		when "PANT"
-			@category = "Pant"
+			@products = Pant.all
 		when "ACC"
-			@category = "Acc"
+			@products = ACC.all
 		when "SHOES"
-			@category = "Shoes"
+			@products = SHOES.all
 		end
-		@products = Product.where(title: @category)
+		
 	end
 
 	def show
