@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'email/email_form' => 'email#email_form'
+  post 'email/email_send' => 'email#email_send'
 
   get 'admin' => 'admin#index'
   
@@ -16,19 +18,13 @@ Rails.application.routes.draw do
 	get "qna/qna/write_comment/:id" => 'qna#write_comment'
 	post 'qna/write_comment_complete' => 'qna#write_comment_complete'
   end
-<<<<<<< HEAD
+  
+  get "user/new" => 'user#new'
 
   get "/:category" => 'store#posts_category'
   get "store/show/:id" => 'store#show'
-
-  get 'email/email_form' => 'email#email_form'
-  post 'email/email_send' => 'email#email_send'
-
-=======
   
-  
-  get "user/new" => 'user#new'
->>>>>>> Mun
+
   get 'sessions/create'
   get 'sessions/destroy'
   resources :users
@@ -44,7 +40,6 @@ Rails.application.routes.draw do
   end
   get "/:category" => 'store#posts_category'
   get "store/show/:id" => 'store#show'
-
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
