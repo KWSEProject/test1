@@ -1,0 +1,11 @@
+<div style="background-color: #e9eaed;">
+<h1>List of QnA</h1>
+<% @numbers.reverse.each do |number| %>
+<div style="background-color: #ffffff; width: 400px; border: 2px; solid #d3d6db; padding: 10px; word-break: break-all;">
+	<h3 style="color: orange;"><%= number.name %></h3>
+	<p><%= number.question %></p>
+	<p style="font-size: 90%; text-align: right;"><a href="/qna/add/<%= number.id %>">edit</a> <a href="/qna/delete/<%= number.id %>">delete</a></p>
+</div><br>
+<% end %>
+<br>
+<a href="/qna/add">Add a new question</a>
