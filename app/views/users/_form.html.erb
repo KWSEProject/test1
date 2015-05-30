@@ -5,7 +5,7 @@
   <% if @user.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@user.errors.count, "error") %>
-			prohibited this user from being saved:</h2>
+         prohibited this user from being saved:</h2>
       <ul>
       <% @user.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
@@ -18,7 +18,7 @@
   <legend>Enter User Details</legend>
 
   <div class="field">
-    <%= f.label :name, '이름:'  %><br>
+    <%= f.label :name, 'ID:'  %><br>
     <%= f.text_field :name, size: 30 %>
   </div>
   <div class="field">
@@ -26,12 +26,40 @@
     <%= f.password_field :password, size: 30 %>
   </div>
   <div class="field">
-    <%= f.label :password_confirmation, '비밀번호확인:' %><br>
+    <%= f.label :password_confirmation, '비밀확인:' %><br>
     <%= f.password_field :password_confirmation, size: 30 %>
   </div>
+
+
+
+  <div class="field">
+    <%= f.label :address1, 'Address:'  %><br>
+    <%= f.text_field :address1, size: 50 %>
+  </div>
+  <div class="field">
+    <%= f.label :phone_number, 'Phone:'  %><br>
+    <%= f.text_field :phone_number, size: 15 %>
+  </div>
+  <div class="field">
+    <%= f.label :e_mail, 'E-mail:'  %><br>
+    <%= f.text_field :e_mail, size: 50 %>
+  </div>
+  <div class="field">
+  	<%= f.label :birth_date, 'Birth date:' %><br>
+	<%= f.text_field :birth_date, size: 15 %>
+  </div>
+  <div class = "field">
+  	<%= f.radio_button :gender, '0'%>Male
+	<%= f.radio_button :gender, '1'%>Female
+  </div>
+
+
+
+
+
   <div class="actions">
     <%= f.submit %>
-  </div>
+  </div>   
   </fieldset>
 <% end %>
 
