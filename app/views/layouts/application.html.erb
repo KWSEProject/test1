@@ -29,21 +29,18 @@
 					<li><%= link_to 'Home', store_path %></li>
 					<li><a href ="/qna/list">QA</a></li>
 					<li><a>News</a></li>
-					<li><a>Contact</a></li>
+					<li><a href="/email/email_form">Contact</a></li>
 					<li><%= link_to 'Orders',	orders_path %></li>
 					<li><%= link_to 'Proudcts', products_path %></li>
 					<li><%= link_to 'Users', users_path %></li>
-				
-					
 				</ul>
 			<% else %>
 				<ul>
 					<li><%= link_to 'Home', store_path %></li>
 					<li><a href="/qna/list">QA</a></li>
 					<li><a>News</a></li>
-					<li><a>Contact</a></li>
+					<li><a href="/email/email_form">Contact</a></li>
 				</ul>
-					
 			<% end %>
 		</div>
 	</div>

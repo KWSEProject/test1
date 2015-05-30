@@ -1,5 +1,6 @@
 class QnaController < ApplicationController
-	skip_before_filter :verify_authenticity_token, :only => [:add_process, :edit_process, :delete_process, :write_comment_complete]
+	skip_before_filter :verify_authenticity_token, :only => [:add_process, :edit_process, :delete_process, :write_comment_complete, :delete_comment_complete]
+
   def list
   	@numbers = Qna.all
   end
@@ -56,6 +57,13 @@ class QnaController < ApplicationController
 	c.name = params[:writer]
 	c.question = params[:question]
 	c.save
+	
+	redirect_to "/qna/list"
+  end
+
+  def delete_comment_complete
+	comment = Comment.find(params[:id])
+	comment.destroy
 
 	redirect_to "/qna/list"
   end
