@@ -1,9 +1,10 @@
+<%= paginate @products %>
+
 <% if notice %>
 <p id="notice"><%= notice %></p>
 <% end %>
 
 <h1>Cloth List</h1>
-
 <% cache ['store', Product.latest] do %>
 	<% @products.each do |product| %>
 		<% cache ['entry', product] do %>	
@@ -20,3 +21,5 @@
 		<% end %>
 	<% end %>
 <% end %>
+
+<%= paginate @products %>

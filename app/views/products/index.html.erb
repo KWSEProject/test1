@@ -1,3 +1,5 @@
+<%= will_paginate @products %>
+
 <h1>Listing products</h1>
 <table>
 <% @products.each do |product| %>
@@ -23,3 +25,5 @@
 </table>
 <br />
 <%= link_to 'New product', new_product_path %>
+
+<p><%= will_paginate @products %></p>

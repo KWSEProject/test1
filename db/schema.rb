@@ -61,6 +61,7 @@ ActiveRecord::Schema.define(version: 20150527031737) do
     t.decimal  "price",       precision: 8, scale: 2
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
+    t.decimal  "BuyCount"
   end
 
   create_table "qnas", force: :cascade do |t|
@@ -90,7 +91,12 @@ ActiveRecord::Schema.define(version: 20150527031737) do
     t.string   "password_digest"
     t.datetime "created_at",                 null: false
     t.datetime "updated_at",                 null: false
-    t.string   "address",         limit: 80
+    t.date     "address"
+    t.string   "phone_number",    limit: 15
+    t.string   "address1",        limit: 80
+    t.date     "birth_date"
+    t.string   "e_mail",          limit: 50
+    t.integer  "gender"
   end
 
 end
