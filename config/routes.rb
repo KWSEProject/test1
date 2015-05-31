@@ -2,8 +2,10 @@ Rails.application.routes.draw do
   get 'email/email_form' => 'email#email_form'
   post 'email/email_send' => 'email#email_send'
 
+  
   get 'admin' => 'admin#index'
   
+
   controller :sessions do
      get 'login' => :new
    post 'login' => :create
@@ -17,7 +19,7 @@ Rails.application.routes.draw do
    post 'qna/delete_process' => 'qna#delete_process'
    get "qna/qna/write_comment/:id" => 'qna#write_comment'
    post 'qna/write_comment_complete' => 'qna#write_comment_complete'
-	get 'qna/delete_comment_complete/:id' => 'qna#delete_comment_complete'
+   get 'qna/delete_comment_complete/:id' => 'qna#delete_comment_complete'
   end
   
   
@@ -42,7 +44,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'store#index', as: 'store'
+   root 'products#index', as: 'root_path'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
