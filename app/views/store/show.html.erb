@@ -1,18 +1,31 @@
 <p><%= flash[:alert] %></p>
-<h2><%= @products.main_title %></h2>
+
+
+
+<div id="container"><!--블로그 전체 몸통을 감싸는 레이어입니다.-->
+  <div id="header">
+   
+  </div>
+  <div id="content">
+   <%= image_tag(@products.main_image_url) %>
+  </div>
+  <div id="sidebar">
+    <h2><%= @products.main_title %></h2>
+    <h3>내용: <%= @products.description %></h3>
+    <h4>재고: <%= @products.stock %></h4>
+    <h4>가격: <%= @products.price %></h4>
+  </div>
+  
+</div>
+
 
 <div style="border: 1px solid #ffffff">
-  <p style="color: #ff0000", "size: 50px">재고: <%= @products.stock %></p>
-  <p style="color: #00ff00">가격: <%= @products.price %></p>
+  
 
-  <%= image_tag(@products.main_image_url) %>
+  
   <%= image_tag(@products.image_url1) %>
-  <%= image_tag(@products.image_url2) %>
-  <%= image_tag(@products.image_url3) %>
-  <%= image_tag(@products.image_url4) %>
-  <%= image_tag(@products.image_url5) %>
 
-  <h2>내용: <%= @products.description %></h2>
+  
 
   <p><a href="/">전체 리스트 가기</a></p>
 </div>

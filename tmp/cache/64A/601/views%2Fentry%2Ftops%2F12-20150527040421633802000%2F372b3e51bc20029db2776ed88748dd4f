@@ -1,0 +1,10 @@
+o: ActiveSupport::Cache::Entry:@valueI"Ž			<div class="entry">
+				<img src="/assets/Top_2_1-df25d7a18997624de40283f465c7b12e7b317d8f40b9d1cf3384d48aa362ddcd.PNG" alt="Top 2 1 df25d7a18997624de40283f465c7b12e7b317d8f40b9d1cf3384d48aa362ddcd" />
+				<h2><a href="store/show/12"> TOP2 </a></h2>
+				THIS TOP2
+				<div class="price_line">
+					<span class="price">$20,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=12" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="f2eoyZy2EYXKmOuqyIiuHygOR4+azcycndQAZ6mlD75AgWLcXYqPhY/3Hci3MXW+lFIImOyEgU209Q+UI4Uh6A==" /></form>
+				</div>
+			</div>
+:ET:@created_atf1433136385.4596846:@expires_in0

@@ -1,0 +1,19 @@
+o: ActiveSupport::Cache::Entry:@valueI"¥			<div class="entry">
+				<img src="/images/main_image.PNG" alt="Main image" />
+				<h2><a href="store/show/11">Click!!</a></h2>
+				THIS IS TOP1
+				<div class="price_line">
+					<span class="price">$20,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=11" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="/u4MqWANCAPJjvExpj0IVNyllKeOGR1fT8GzEZDeO17BCMa8oTGWA4zhB1PZhNP1YPnbsPhQUI5m4LziGv4VCA==" /></form>
+				</div>
+			</div>
+			<div class="entry">
+				<img src="/assets/Top_2_1-df25d7a18997624de40283f465c7b12e7b317d8f40b9d1cf3384d48aa362ddcd.PNG" alt="Top 2 1 df25d7a18997624de40283f465c7b12e7b317d8f40b9d1cf3384d48aa362ddcd" />
+				<h2><a href="store/show/12">Click!!</a></h2>
+				THIS TOP2
+				<div class="price_line">
+					<span class="price">$20,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=12" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="4IPGj8Wmq/LCXerN4AOJdahx75v1tvrjyOsOUUrz9rbfZQyaBJo18ocyHK+fulLUFC2gjIP/tzLhygGiwNPY4A==" /></form>
+				</div>
+			</div>
+:ET:@created_atf1433135841.925758:@expires_in0

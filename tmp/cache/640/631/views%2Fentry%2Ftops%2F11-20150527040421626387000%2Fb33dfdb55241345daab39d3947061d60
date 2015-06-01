@@ -1,0 +1,10 @@
+o: ActiveSupport::Cache::Entry:@valueI"			<div class="entry">
+				<img src="/images/main_image.PNG" alt="Main image" />
+				<h2><a href="store/show/11">Click!!</a></h2>
+				THIS IS TOP1
+				<div class="price_line">
+					<span class="price">$20,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=11" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="/u4MqWANCAPJjvExpj0IVNyllKeOGR1fT8GzEZDeO17BCMa8oTGWA4zhB1PZhNP1YPnbsPhQUI5m4LziGv4VCA==" /></form>
+				</div>
+			</div>
+:ET:@created_atf1433135841.9025924:@expires_in0
