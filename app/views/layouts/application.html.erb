@@ -10,7 +10,7 @@
 <body class="<%= controller.controller_name %>">
    <div id="login">
       <% if session[:user_id] %>
-         <a href ="users/3">My Page</a>
+         <a href ="users/<% session[:user_id]%>">My Page</a>
          <%= link_to 'Logout', logout_path, method: :delete %>
       <% else %>
          <%= link_to 'Login', login_path %>
