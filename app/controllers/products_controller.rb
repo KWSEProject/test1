@@ -4,12 +4,15 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
-    @products = Product.all
+    @product = Product.search(params[:search])
+	@products = Product.all
   end
 
   # GET /products/1
   # GET /products/1.json
   def show
+    @id = params[:id]
+    Product.increment_counter(:hits, @id)
   end
 
   # GET /products/new
@@ -76,6 +79,7 @@ class ProductsController < ApplicationController
     def set_product
       @product = Product.find(params[:id])
     end
+
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def product_params

@@ -18,6 +18,7 @@ Rails.application.routes.draw do
    get "qna/qna/write_comment/:id" => 'qna#write_comment'
    post 'qna/write_comment_complete' => 'qna#write_comment_complete'
 	get 'qna/delete_comment_complete/:id' => 'qna#delete_comment_complete'
+   get 'users/MyPage' => 'users#show'
   end
   
   

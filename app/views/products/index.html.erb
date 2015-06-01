@@ -16,7 +16,15 @@
 			<%= link_to 'Edit', edit_product_path(product) %><br/>
 			<%= link_to 'Destroy', product, method: :delete,
 						  data: { confirm: 'Are you sure?' } %><br/>
-			<%= link_to 'Buy', new_order_path, method: :get %>
+			<%= link_to 'Buy', new_order_path, method: :get %><br/>
+			
+			Hits : <%= product.hits %>
+			<% form_tag "/products", :method => 'get' do %>
+	<p>
+		<%= text_field_tag :search, params[:search], placeholder: "Search..." %>
+		<%= submit_tag "Search", :name => nil %>
+	</p>
+<% end %>
 		</td>
 	</tr>
 <% end %>
