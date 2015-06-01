@@ -14,6 +14,9 @@
 	*= require_tree .
 	*/
 
+body {
+	background-img: url("back.PNG");
+}
 #login{
 	float: right;
 } 
@@ -49,7 +52,7 @@
 
 	#main {
 		margin-left: 17em;
-		padding: 1em;
+		padding: 3em;
 		background: white;
 	}
 
@@ -67,7 +70,7 @@
 
 		form {
 			label {
-				width: 5em;
+				width: 6em;
 				float: left;
 				text-align: right;
 				padding-top: 0.2em;
