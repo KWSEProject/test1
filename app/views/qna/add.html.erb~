@@ -1,0 +1,11 @@
+<div style="background-color:#e9eaed;">
+	<h1>Post a new question</h1>
+	<form action="/qna/add_process" method="post">
+		Name: <input type="text" name="name" placeholder="Write your name" ><br>
+		Question:<br>
+		<textarea name="question" cols="40" rows="5" placeholder="Write question"></textarea>
+		<input type="submit" value="add">
+	</form>
+</div>
+
+<h4><%= flash[:alert] %></h4>

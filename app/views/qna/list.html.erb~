@@ -1,0 +1,24 @@
+<div style="background-color: #ffffff;">
+<h1 style="font-family: Arial Black;" class="shadow2">List of QnA</h1>
+<% @numbers.reverse.each do |number| %>
+<div style="background-color: #A4B9C6; width: 400px; border: 4px dotted #82D500; padding: 10px; word-break: break-all;">
+	<h3 style="color: #000000;">Name : <%= number.name %></h3>
+	<p>Question : <%= number.question %></p>
+	<p style="font-size: 90%; text-align: right;">
+		<a href="qna/write_comment/<%= number.id %>">comment </a>
+		<a href="/qna/add/<%= number.id %>">edit</a>
+		<a href="/qna/delete/<%= number.id %>">delete</a>
+	</p>
+	<% number.comments.each do |comment| %>
+	<div style="background-color: #fafbfb; width: 390px; border: 1px; solid #d3d6db; padding: 0px 5px 0px 5px; word-break: break-all; text-align: left;">
+		<p style="font-size: 90%; text-align: left">
+		<span style="color: #0000ff; font-weight: bold;">
+			<%= comment.name %></span>
+		<%=comment.question %> | <a href="/qna/delete_comment_complete/<%= comment.id %>">삭제</a>
+		</p>
+	</div>
+	<% end %>
+</div><br>
+<% end %>
+<br>
+<a href="/qna/add" class="blueBtn" class="pt-page-moveFromBottom">Add a new question</a>
