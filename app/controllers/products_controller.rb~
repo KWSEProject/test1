@@ -8,9 +8,13 @@ class ProductsController < ApplicationController
     @products = Product.search(params[:search], params[:page])
     
     if session[:user_id]
-   @users = User.find(params[:user_id])
+<<<<<<< HEAD
+	@users = User.find(params[:user_id])
+=======
+       @users = User.find(params[:user_id])
+>>>>>>> 0b6e9a93a11ed0b95ea28ded4cc6f33027da0c73
     else
-       @users = 0
+	@users = 0
     end
   end
 
