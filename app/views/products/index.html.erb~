@@ -1,6 +1,6 @@
 <%= will_paginate @products %>
 
-<h1 class="shadow2">Listing products</h1>
+<h1 style="font-family: Arial Black;" class="shadow2">Listing products</h1>
 
 <table>
 <% @products.each do |product| %>
