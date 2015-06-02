@@ -6,6 +6,12 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = Product.search(params[:search], params[:page])
+    
+    if session[:user_id]
+   @users = User.find(params[:user_id])
+    else
+       @users = 0
+    end
   end
 
   # GET /products/1
@@ -63,13 +69,13 @@ class ProductsController < ApplicationController
   end
 
   def who_bought
-  	@product = Product.find(params[:id])
-	@latest_order = @product.orders.order(:updated_at).last
-	if stale?(@latest_order)
-		respond_to do |format|
-			format.atom
-		end
-	end
+     @product = Product.find(params[:id])
+   @latest_order = @product.orders.order(:updated_at).last
+   if stale?(@latest_order)
+      respond_to do |format|
+         format.atom
+      end
+   end
   end
 
   private
@@ -82,6 +88,6 @@ class ProductsController < ApplicationController
     def product_params
       params.require(:product).permit(:title, :description, :image_url, :price, :BuyCount)
       else
-	
+   
     end
 end
