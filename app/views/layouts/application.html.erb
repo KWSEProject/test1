@@ -29,13 +29,14 @@
 
    <div id="banner">
       <a href="/products"><%= image_tag("IU.gif") %></a>
+
       <%= @page_title || "KWSE cloth shop" %>
    </div>
    
  <div id="rows">
    <div id='cssmenu'>
-	<ul>               
-               <li><%= link_to 'Home',  products_path%></li>
+      <ul>
+               <li><%= link_to 'Home',  products_path(:user_id => session[:user_id] )%> </li>   
                <li><a href ="/qna/list">QA</a></li>
                <li><a href="/email/email_form">Contact</a></li>
                <li><%= link_to 'Orders',   orders_path %></li>
@@ -46,24 +47,24 @@
  </div>
 
 
-	<div id="columns">
-		<div id="side">
-			<div id="cart">
-				<%= @cart %>
-			</div>
-			<div id='cssmenu2'>
-				<ul>
-				<li><a href="/TOP">TOP</a></li>
-				<li><a href="/PANT">PANT</a></li>
-				<li><a href="/ACC">ACC</a></li>
-				<li><a href="/SHOES">SHOES</a></li>
-				</ul>
-			</div>
-		</div>
-		<div id="main">
-			<%= yield %>
-		</div>
-	</div>
+   <div id="columns">
+      <div id="side">
+         <div id="cart">
+            <%= @cart %>
+         </div>
+         <div id='cssmenu2'>
+            <ul>
+            <li><a href="/TOP">TOP</a></li>
+            <li><a href="/PANT">PANT</a></li>
+            <li><a href="/ACC">ACC</a></li>
+            <li><a href="/SHOES">SHOES</a></li>
+            </ul>
+         </div>
+      </div>
+      <div id="main">
+         <%= yield %>
+      </div>
+   </div>
 
 </body>
 </html>
