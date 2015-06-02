@@ -19,6 +19,7 @@
 			<%= link_to 'Destroy', product, method: :delete,
 						  data: { confirm: 'Are you sure?' } %><br/>
 			<%= link_to 'Buy', new_order_path, method: :get %>
+			Hits : <%= product.hits %>
 		</td>
 	</tr>
 <% end %>

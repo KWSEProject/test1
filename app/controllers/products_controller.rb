@@ -11,6 +11,8 @@ class ProductsController < ApplicationController
   # GET /products/1
   # GET /products/1.json
   def show
+  	@id = params[:id]
+	Product.increment_counter(:hits, @id)
   end
 
   # GET /products/new
