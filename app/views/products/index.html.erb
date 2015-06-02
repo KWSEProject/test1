@@ -27,6 +27,10 @@
 </table>
 <br />
 
-<%= link_to 'New product', new_product_path, class:"blueBtn" %>
+<% if @users != 0 %>
+	<% if @users.rank == 1 %>
+		<%= link_to 'New product', new_product_path, class:"blueBtn" %>
+	<% end %>
+<% end %>
 
 <p><%= will_paginate @products %></p>
