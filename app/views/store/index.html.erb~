@@ -2,8 +2,6 @@
 <p id="notice"><%= notice %></p>
 <% end %>
 
-<%= paginate @entry %>
 <h1>Cloth Catalog</h1>
 
 <%= render :partial => "store/posts" %>
-<%= paginate @entry %>

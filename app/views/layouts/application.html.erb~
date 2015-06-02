@@ -19,10 +19,10 @@
 <body class="<%= controller.controller_name %>">
    <div id="login">
       <% if session[:user_id] %>
-         <a href ="users/3">My Page</a>
-         <%= link_to 'Logout', logout_path, method: :delete %>
+         <a href ="users/<% session[:user_id]%>" class="pinkBtn" >My Page</a>
+         <%= link_to 'Logout', logout_path, method: :delete, class:"pinkBtn" %>
       <% else %>
-         <%= link_to 'Login', login_path %>
+         <%= link_to 'Login', login_path, class:"pinkBtn" %>
          <%= link_to 'Sign Up', new_user_path %>
       <% end %>
    </div>
@@ -59,10 +59,9 @@
 				<li><a href="/SHOES">SHOES</a></li>
 				</ul>
 			</div>
-
-			<div id="main">
-				<%= yield %>
-			</div>
+		</div>
+		<div id="main">
+			<%= yield %>
 		</div>
 	</div>
 

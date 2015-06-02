@@ -81,9 +81,15 @@ ActiveRecord::Schema.define(version: 20150527031737) do
     t.string   "image_url3"
     t.string   "image_url4"
     t.string   "image_url5"
-    t.decimal  "price",          precision: 8, scale: 2
-    t.datetime "created_at",                             null: false
-    t.datetime "updated_at",                             null: false
+    t.decimal  "price",                    precision: 8, scale: 2
+    t.datetime "created_at",                                       null: false
+    t.datetime "updated_at",                                       null: false
+    t.string   "size1",          limit: 7
+    t.string   "size2",          limit: 7
+    t.string   "color1",         limit: 7
+    t.string   "color2",         limit: 7
+    t.decimal  "buy_count"
+    t.decimal  "product_id"
   end
 
   create_table "users", force: :cascade do |t|

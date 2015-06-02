@@ -1,2 +1,3 @@
 class Top < ActiveRecord::Base
-end
+	belongs_to :products
+end	
