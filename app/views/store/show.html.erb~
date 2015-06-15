@@ -2,19 +2,19 @@
 
 <body>
 
-<% @products.each do |product| %>
+
 <div id="container"><!--블로그 전체 몸통을 감싸는 레이어입니다.-->
   <div id="header">
    
   </div>
   <div id="content">
-   <%= image_tag(product.main_image_url) %>
+   <%= image_tag(@products.main_image_url) %>
   </div>
   <div id="sidebar">
-    <h2><%= product.main_title %></h2>
-    <h3>내용: <%= product.description %></h3>
-    <h4>재고: <%= product.stock %></h4>
-    <h4>가격: <%= product.price %></h4>
+    <h2><%= @products.main_title %></h2>
+    <h3>내용: <%= @products.description %></h3>
+    <h4>재고: <%= @products.stock %></h4>
+    <h4>가격: <%= @products.price %></h4>
   </div>
   
 </div>
@@ -24,8 +24,8 @@
   
 
   
- <%= image_tag(product.image_url1) %>
-<% end %>
+ <%= image_tag(@products.image_url1) %>
+
 
   
 

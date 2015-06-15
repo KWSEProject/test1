@@ -26,6 +26,12 @@ class StoreController < ApplicationController
 	end
 
 	def show
+		#@products = Product.find_
+		#if @type == "Top"
+		#	@products = Top.find(33)
+		#else
+		#	@products = Pants.find(22)
+		#end
 		# @products = Top.find(params[:id])
 
       		#@a = Product.where(product_id=> params[:id])
@@ -35,10 +41,30 @@ class StoreController < ApplicationController
 		#elsif product_type == "Pant"
 		#	@products = "11111"
 		#end
-		@products = Top.find(params[:id])
+		
+		@type = 0
+		max = Product.count
+		0.upto(max) do |i|
+  			@product = Product.find(params[:i])
+			@top = Top.find(params[:i])
+			@pant = Pant.find(params[:i])
+		
+			if @product.product_id == @top.product_id
+				@type = 0;
+				break
+			elsif @product.product_id == @pant.product_id 	
+				@type = 1;
+				break
+			end	
+		end
 
-
-
+		if @type==0
+			@products = Top.find(params[:id])
+		elsif @type==1
+			@products = Pant.find(params[:id])
+		end
+		
+		
    	end
 
 end
