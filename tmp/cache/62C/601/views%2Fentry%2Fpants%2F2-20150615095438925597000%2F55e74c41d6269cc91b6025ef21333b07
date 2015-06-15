@@ -1,0 +1,11 @@
+o: ActiveSupport::Cache::Entry:@valueI"®			<div class="entry">
+				<img src="/assets/Pant_1_1-ad0c251e258781ef7cc19e46ebe4c5deaa6b87f38e3a61b5960cea7493d6aca1.PNG" alt="Pant 1 1 ad0c251e258781ef7cc19e46ebe4c5deaa6b87f38e3a61b5960cea7493d6aca1" />
+				Pant
+				<h2><a href="store/show/35.0"> Mun Test1 Pant </a></h2>
+				<h2>Mun Test1 Pant</h2>
+				<div class="price_line">
+					<span class="price">$99.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=2" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="wZv1gN5mNIBePbpFGKAxTy4+kCe/uSiX7HBeS3XrEdWpgwDWs/aZvhj6lcIf1xG3WIJDJIQNWVnMKbrIMUqF+g==" /></form>
+				</div>
+			</div>
+:ET:@created_atf1434365419.864599:@expires_in0

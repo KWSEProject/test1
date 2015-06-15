@@ -1,0 +1,25 @@
+table|tops|tops|38|
+
+CREATE TABLE "tops" 
+(
+ "main_title" varchar, 
+ "description" text, 
+ "main_image_url" varchar, 
+ "image_url1" varchar, 
+ "price" decimal(8,2), 
+ size1 varchar(7), 
+ size2 varchar(7), 
+ color1 varchar(7), 
+ color2 varchar(7), 
+ buy_count decimal, 
+ product_id decimal, 
+ stock1 decimal, 
+ stock2 decimal, 
+ stock3 decimal, 
+ stock4 decimal, 
+ stock5 decimal, 
+ stock6 decimal, 
+ size3 varchar(7), 
+ size4 varchar(7), 
+ size5 varchar(7), 
+ size6 varchar(7))

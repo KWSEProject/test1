@@ -13,21 +13,112 @@
 
   <div class="field">
     <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <input type="text" name = "title" placeholder="Input Title">
   </div>
   <div class="field">
     <%= f.label :description %><br>
-    <%= f.text_area :description, rows: 6 %>
+    <textarea name = "description" placeholder="Input Description"></textarea>
   </div>
   <div class="field">
-    <%= f.label :image_url %><br>
-    <%= f.text_field :image_url %>
+    <%= f.label :main_image %><br>
+    <input type="file" name = "image_url" value="" accept="image/*" />
   </div>
+  <div class="field">
+    <%= f.label :sub_image %><br>
+    <input type="file" name = "image_url2" value="" accept="image/*" />
+  </div>
+
+
+  <div class="field">
+    <%= f.label :color1 %><br>
+    <input type="text" name = "color1" placeholder="Input color1">
+  </div>
+
+  <div class="field">
+    <%= f.label :size1 %><br>
+    <input type="text" name = "size1" placeholder="Input size1">
+  </div>
+
+  <div class="field">
+    <%= f.label :stock1 %><br>
+    <input type="text" name = "stock1" placeholder="Input stock1">
+  </div>
+
+  <div class="field">
+    <%= f.label :size2 %><br>
+    <input type="text" name = "size2" placeholder="Input size2">
+  </div>
+
+  <div class="field">
+    <%= f.label :stock2 %><br>
+    <input type="text" name = "stock2" placeholder="Input stock2">
+  </div>
+
+  <div class="field">
+    <%= f.label :size3 %><br>
+    <input type="text" name = "size3" placeholder="Input size3">
+  </div>
+
+  <div class="field">
+    <%= f.label :stock3 %><br>
+    <input type="text" name = "stock3" placeholder="Input stock3">
+  </div>
+
+
+  <div class="field">
+    <%= f.label :color2 %><br>
+    <input type="text" name = "color2" placeholder="Input color2">
+  </div>
+
+  <div class="field">
+    <%= f.label :size4 %><br>
+    <input type="text" name = "size4" placeholder="Input size4">
+  </div>
+
+  <div class="field">
+    <%= f.label :stock4 %><br>
+    <input type="text" name = "stock4" placeholder="Input stock4">
+  </div>
+
+  <div class="field">
+    <%= f.label :size5 %><br>
+    <input type="text" name = "size5" placeholder="Input size5">
+  </div>
+
+  <div class="field">
+    <%= f.label :stock6 %><br>
+    <input type="text" name = "stock5" placeholder="Input stock6">
+  </div>
+
+  <div class="field">
+    <%= f.label :size6 %><br>
+    <input type="text" name = "size6" placeholder="Input size6">
+  </div>
+
+  <div class="field">
+    <%= f.label :stock6 %><br>
+    <input type="text" name = "stock6" placeholder="Input stock6">
+  </div>
+
+
+
+
   <div class="field">
     <%= f.label :price %><br>
-    <%= f.text_field :price %>
+    <input type="text" name = "price" placeholder="Input Price">
   </div>
+  
+
+  <div class="field">
+   	<%= f.radio_button :close_type2, 'Top'%>Top
+	<%= f.radio_button :close_type2, 'Pant'%>Pant
+	<%= f.radio_button :close_type2, 'ACC'%>ACC
+  </div>
+
+  
+
   <div class="actions">
+    <br>
     <%= f.submit %>
   </div>
 <% end %>

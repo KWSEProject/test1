@@ -1,0 +1,12 @@
+o: ActiveSupport::Cache::Entry:@valueI"�		<div class="entry">
+			<img src="/images/main3PNG" alt="Main3png" />
+			<h2><a href="store/show/28"> 베이직한 워싱 슬라브 7부티 </a></h2>
+			<h2>통기성 좋은 부드러운 슬라브소재에
+6가지 다양한 컬러와 사이즈까지!
+올 여름 데일리룩 완벽대비!</h2>
+			<div class="price_line">
+				<span class="price">$16,000.00</span>
+				<form class="button_to" method="post" action="/line_items?product_id=28" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="SKl9XvIlj092nxr1VYTfVNuVgPgE704YkqxtiBB6ZhUGdpXp/eFeqQ7UmJb2ihOcFWi9g3vw3qEE781zzHP9nA==" /></form>
+			</div>
+		</div>
+:ET:@created_atf1434383735.8870792:@expires_in0

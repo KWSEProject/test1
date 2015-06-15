@@ -11,18 +11,34 @@ class StoreController < ApplicationController
 		case params[:category]
 		when "TOP"
 			@products = Top.all
+			@type = "Top"
 		when "PANT"
 			@products = Pant.all
+			@type = "Pant"
 		when "ACC"
-			@products = ACC.all
+			@products = Acc.all
+			@type = "Acc"
 		when "SHOES"
-			@products = SHOES.all
+			@products = Shoes.all
+			@type = "Shoes"
 		end
 		
 	end
 
 	def show
+		# @products = Top.find(params[:id])
+
+      		#@a = Product.where(product_id=> params[:id])
+		#product_type = @a.close_type2
+		#if product_type == "Top"
+		#	@products = "55555"
+		#elsif product_type == "Pant"
+		#	@products = "11111"
+		#end
 		@products = Top.find(params[:id])
-	end
+
+
+
+   	end
 
 end
