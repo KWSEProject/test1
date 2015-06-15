@@ -10,7 +10,7 @@ Rails.application.routes.draw do
      get 'login' => :new
    post 'login' => :create
    delete 'logout' => :destroy
-     post 'qna/add_process' => 'qna#add_process'
+   get 'qna/add_process' => 'qna#add_process'
    get 'qna/list' => 'qna#list'
    get 'qna/add' => 'qna#add'
    get 'qna/add/:id' => 'qna#edit'

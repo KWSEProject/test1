@@ -19,7 +19,8 @@
 			<%= link_to 'Edit', edit_product_path(product) %><br/>
 			<%= link_to 'Destroy', product, method: :delete,
 						  data: { confirm: 'Are you sure?' } %><br/>
-			<%= link_to 'Buy', new_order_path, method: :get %>
+			<%= link_to 'Buy', new_order_path(:_id => product[:id])%>
+		
 			Hits : <%= product.hits %>
 		</td>
 	</tr>
@@ -27,8 +28,8 @@
 </table>
 <br />
 
-<% if @users != 0 %>
-	<% if @users.rank == 1 %>
+<% if @user != 0 %>
+	<% if @user.rank == 1 %>
 		<%= link_to 'New product', new_product_path, class:"blueBtn" %>
 	<% end %>
 <% end %>
