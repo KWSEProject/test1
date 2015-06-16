@@ -1,26 +1,25 @@
 class QnaController < ApplicationController
 	skip_before_filter :verify_authenticity_token, :only => [:add_process, :edit_process, :delete_process, :write_comment_complete, :delete_comment_complete]
- @users_id = 0
+
   def list
   @numbers = Qna.all
   n = Qna.new
-  @user = User.find(params[:user_id])
-  @users_id = @user.id
   @name = User.find(params[:user_id])
   n.name = @name.name
+  p = Qna.find_by(question: params[:question])
   end
 
   def add
+	p = Qna.find_by(question: params[:question])
   	@user = User.find(params[:user_id])
+	@question = p
   end
 
   def add_process
   	n = Qna.new
-	user_id = @users_id
   	@user = User.find(params[:user_id])
   	n.name = @user.name
-  	n.question = params[:question]
-  
+  	n.question = @question
 	
 	if n.save
 		redirect_to qna_list_path :user_id => params[:user_id]

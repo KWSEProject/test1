@@ -1,0 +1,10 @@
+id          title       description                                         image_url        price       created_at                  updated_at                  BuyCount    hits      
+----------  ----------  --------------------------------------------------  ---------------  ----------  --------------------------  --------------------------  ----------  ----------
+42          1st cloth   <p>this is green T-shirt. It has 95, 100 size.</p>  green_cloth.PNG  5000        2015-05-27 04:04:21.594269  2015-05-27 04:04:21.594269  5           4         
+43          2nd cloth   <p>this is pink skirt. It has free size</p>         pink_skirt.PNG   7000        2015-05-27 04:04:21.604897  2015-05-27 04:04:21.604897                        
+44          3rd cloth   <p>this is jin for man. Is has 30 to 35 size</p>    jin.PNG          20000       2015-05-27 04:04:21.610861  2015-05-27 04:04:21.610861                        
+id          title       description                                         image_url        price       created_at                  updated_at                  BuyCount    hits      
+----------  ----------  --------------------------------------------------  ---------------  ----------  --------------------------  --------------------------  ----------  ----------
+42          1st cloth   <p>this is green T-shirt. It has 95, 100 size.</p>  green_cloth.PNG  5000        2015-05-27 04:04:21.594269  2015-05-27 04:04:21.594269  5           4         
+43          2nd cloth   <p>this is pink skirt. It has free size</p>         pink_skirt.PNG   7000        2015-05-27 04:04:21.604897  2015-05-27 04:04:21.604897                        
+44          3rd cloth   <p>this is jin for man. Is has 30 to 35 size</p>    jin.PNG          20000       2015-05-27 04:04:21.610861  2015-05-27 04:04:21.610861                        

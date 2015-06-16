@@ -1,11 +1,10 @@
 <div style="background-color:#e9eaed;">
 	<h1>Edit post</h1>
 	<form action="/qna/edit_process" method="post">
-		<input type="hidden" name="id" value="<%= session[:user_id] %>">
-			Name: <input type="text" name=<%= @user.name %> value="<%= @post_edit.name %>"><br>
-			Question:<br>
-			<textarea name="question_edit" cols="40" rows="5"><%= @post_edit.question %></textarea>
-		<input type="submit" value="edit">
+		<input type="hidden" name="id" value="<%= @post_edit.id %>">
+		Question:<br>
+		<textarea name="question" cols="40" rows="5" placeholder="Write question"></textarea>
+		<input type="submit" value="add">
 	</form>
 </div>
 

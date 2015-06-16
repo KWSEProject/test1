@@ -2,7 +2,7 @@
 <h1 style="font-family: Arial Black;" class="shadow2">List of QnA</h1>
 <% @numbers.reverse.each do |number| %>
 <div style="background-color: #A4B9C6; width: 400px; border: 4px dotted #82D500; padding: 10px; word-break: break-all;">
-	<h3 style="color: #000000;">Name : <%= @user.name %></h3>
+	<h3 style="color: #000000;">Name : <%= number.name %></h3>
 	<p>Question : <%= number.question %></p>
 	<p style="font-size: 90%; text-align: right;">
 		<a href="qna/write_comment/<%= number.id %>">comment </a>
@@ -21,4 +21,4 @@
 </div><br>
 <% end %>
 <br>
-<%= link_to 'Add a new question', qna_add_path(:user_id => session[:user_id] )%>
+<a href="/qna/add" class="blueBtn" class="pt-page-moveFromBottom">Add a new question</a>

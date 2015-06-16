@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150527031737) do
+ActiveRecord::Schema.define(version: 20150615040237) do
 
   create_table "carts", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -54,6 +54,21 @@ ActiveRecord::Schema.define(version: 20150527031737) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "pants", force: :cascade do |t|
+    t.string   "main_title"
+    t.text     "description"
+    t.decimal  "stock"
+    t.string   "main_image_url"
+    t.string   "image_url1"
+    t.string   "size"
+    t.string   "color"
+    t.decimal  "buy_count"
+    t.decimal  "product_id"
+    t.decimal  "price",          precision: 8, scale: 2
+    t.datetime "created_at",                             null: false
+    t.datetime "updated_at",                             null: false
+  end
+
   create_table "products", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
@@ -62,6 +77,7 @@ ActiveRecord::Schema.define(version: 20150527031737) do
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
     t.decimal  "BuyCount"
+    t.integer  "hits"
   end
 
   create_table "qnas", force: :cascade do |t|
@@ -103,6 +119,7 @@ ActiveRecord::Schema.define(version: 20150527031737) do
     t.date     "birth_date"
     t.string   "e_mail",          limit: 50
     t.integer  "gender"
+    t.integer  "rank"
   end
 
 end

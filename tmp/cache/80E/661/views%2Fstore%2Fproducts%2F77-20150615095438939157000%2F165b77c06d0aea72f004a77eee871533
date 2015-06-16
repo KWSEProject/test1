@@ -1,0 +1,19 @@
+o: ActiveSupport::Cache::Entry:@valueI"4			<div class="entry">
+				<img src="/assets/main1-6d84f92096598db37fafb789565ba011f1c2cbc7e256e55a7efd1badcc149533.PNG" alt="Main1 6d84f92096598db37fafb789565ba011f1c2cbc7e256e55a7efd1badcc149533" />
+				<h2><a href="store/show/1">ddddddddddd </a></h2>
+				<h2>Test Pant</h2>
+				<div class="price_line">
+					<span class="price">$5,000.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=1" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="Wd0Tl2vtzmckfP+1/ULJNbiWMeCoTc65DkwNv/cQ3lYxxebBBn1jWWK70DL6NenNziri45P5v3cuFek8s7FKeQ==" /></form>
+				</div>
+			</div>
+			<div class="entry">
+				<img src="/assets/Pant_1_1-ad0c251e258781ef7cc19e46ebe4c5deaa6b87f38e3a61b5960cea7493d6aca1.PNG" alt="Pant 1 1 ad0c251e258781ef7cc19e46ebe4c5deaa6b87f38e3a61b5960cea7493d6aca1" />
+				<h2><a href="store/show/2">ddddddddddd </a></h2>
+				<h2>Mun Test1 Pant</h2>
+				<div class="price_line">
+					<span class="price">$99.00</span>
+					<form class="button_to" method="post" action="/line_items?product_id=2" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="/XENLeq4HABQIRdzTMNZxj2rIF6Os6zeRFckA4PVsW2Vafh7hyixPhbmOPRLtHk+SxfzXbUH3RBkDsCAx3QlQg==" /></form>
+				</div>
+			</div>
+:ET:@created_atf1434364485.861601:@expires_in0

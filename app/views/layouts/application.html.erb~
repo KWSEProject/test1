@@ -37,13 +37,14 @@
  <div id="rows">
    <div id='cssmenu'>
       <ul>
-               <li><%= link_to 'Home',  products_path(:user_id => session[:user_id] )%> </li>   
-               <!--<li><a href ="/qna/list">QA</a></li>-->
-	       <li><%= link_to 'QA', qna_list_path(:user_id => session[:user_id] )%></li>
+               <li><%= link_to 'Home',  products_path(:user_id => session[:user_id] )%> </li>  
+	<% if session[:user_id] %> 
+               <li><%= link_to 'QA', qna_list_path(:user_id => session[:user_id] )%></li>
                <li><a href="/email/email_form">Contact</a></li>
                <li><%= link_to 'Orders',   orders_path %></li>
-               <li><a href="/product">Best</a></li>
+               <li><a href="/store/index">Best</a></li>
                <li><%= link_to 'Users', users_path %></li>
+	<% end %>
            </ul>
    </div>
  </div>

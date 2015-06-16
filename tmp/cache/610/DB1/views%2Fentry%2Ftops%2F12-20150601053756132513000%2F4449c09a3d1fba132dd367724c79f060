@@ -4,7 +4,14 @@
 				<h2>영문과 강아지 자수로 포인트가 되는 베이직 티셔츠!</h2>
 				<div class="price_line">
 					<span class="price">$20,000.00</span>
+<<<<<<< HEAD
 					<form class="button_to" method="post" action="/line_items?product_id=12" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="N9COduIWyaUGdF3VeXxGLPBYHZcGas8+DdxLgzM2nmR+sHSwL4TATA9AL6ui4a6XUNHAD9+O5WM+lalqioDHKA==" /></form>
 				</div>
 			</div>
 :ET:@created_atf1434338243.4045968:@expires_in0
+=======
+					<form class="button_to" method="post" action="/line_items?product_id=12" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="ubIF9A8/XVwaQ1OB7ydizE/87nskyAM2HpuUczDHp2WUGPi/Tz85Emvxt8qnR6vKmbxBhRMFMb03y1X3GjqNYQ==" /></form>
+				</div>
+			</div>
+:ET:@created_atf1434339823.9073567:@expires_in0
+>>>>>>> 5b9a2c06798e1698f16c7fff2e2b3965fc745064
