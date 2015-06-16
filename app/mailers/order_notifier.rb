@@ -1,5 +1,5 @@
 class OrderNotifier < ApplicationMailer
-	default from: 'LKY ruby <gguggu23@gmail.com>'
+	default from: 'LKY <gguggu23@gmail.com>'
 
   # Subject can be set in your I18n file at config/locales/en.yml
   # with the following lookup:

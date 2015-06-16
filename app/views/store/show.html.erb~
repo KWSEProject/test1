@@ -2,6 +2,7 @@
 
 <body>
 
+
 <div id="container"><!--블로그 전체 몸통을 감싸는 레이어입니다.-->
   <div id="header">
    
@@ -23,7 +24,8 @@
   
 
   
-  <%= image_tag(@products.image_url1) %>
+ <%= image_tag(@products.image_url1) %>
+
 
   
 

@@ -3,21 +3,33 @@
 <p id="notice"><%= notice %></p>
 <% end %>
 
-<h1>Top</h1>
-<% cache ['store', Product.latest] do %>
-	<% @products.each do |product| %>
-		<% cache ['entry', product] do %>	
-			<div class="entry">
-				<%= image_tag(product.main_image_url) %>
-				<h2><a href="store/show/<%= product.id %>"> <%= product.main_title %> </a></h2>
-				<h2><%= product.description %></h2>
-				<div class="price_line">
-					<span class="price"><%= number_to_currency(product.price) %></span>
-					<%= button_to 'Add to Cart', line_items_path(product_id:product),
-						remote: true %>
-				</div>
+<% if @type == "Top" %>
+	<h1>Top</h1>
+<% end %>
+<% if @type == "Pant" %>
+	<h1>Pant</h1>
+<% end %>
+<% if @type == "ACC" %>
+	<h1>Accessory</h1>
+<% end %>
+<% if @type == "Shoes" %>
+	<h1>Shoes</h1>
+<% end %>
+
+
+<% @products.each do |product| %>
+	<% cache ['entry', product] do %>	
+		<div class="entry">
+			<%= image_tag(product.main_image_url) %>
+			<h2><a href="store/show/<%= product.id %>"> <%= product.main_title %> </a></h2>
+			<h2><%= product.description %></h2>
+			<div class="price_line">
+				<span class="price"><%= number_to_currency(product.price) %></span>
+				<%= button_to 'Add to Cart', line_items_path(product_id:product),
+					remote: true %>
 			</div>
-		<% end %>
+		</div>
 	<% end %>
 <% end %>
+
 
