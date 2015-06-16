@@ -114,6 +114,8 @@ class ProductsController < ApplicationController
   # PATCH/PUT /products/1
   # PATCH/PUT /products/1.json
   def update
+    @id = params[:id]
+	Product.increment_counter(:hits, @id)
     respond_to do |format|
       if @product.update(product_params)
         format.html { redirect_to @product, notice: 'Product was successfully updated.' }
@@ -143,6 +145,17 @@ class ProductsController < ApplicationController
          format.atom
       end
    end
+  end
+
+  def find
+	#Product.where("column name is ?",@id)
+	#@parameter = "Top"
+	#@products = Product.where("close_type2 is ?",@parameter)
+        #@pro = Products.find(11)
+	#@pro = "Top"
+	#@products = Product.where("close_type2 is ?","Top")
+	@products = Product.where("close_type2 is ?",@pro)
+	#@product = Product.all
   end
 
   private

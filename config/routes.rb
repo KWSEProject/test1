@@ -22,10 +22,10 @@ Rails.application.routes.draw do
    get 'qna/delete_comment_complete/:id' => 'qna#delete_comment_complete'
   end
   
-  
   get "user/new" => 'user#new'
   get 'sessions/create'
   get 'sessions/destroy'
+  
   resources :users
   resources :orders
   resources :line_items

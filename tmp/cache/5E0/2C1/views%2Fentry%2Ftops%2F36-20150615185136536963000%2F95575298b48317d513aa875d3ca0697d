@@ -1,0 +1,10 @@
+o: ActiveSupport::Cache::Entry:@valueI"–		<div class="entry">
+			<img src="/assets/image_url3-b7a8d581eeb8124a7ec5b5bc2b95997c0202d71350c799f8c2620403a4add408.PNG" alt="Image url3 b7a8d581eeb8124a7ec5b5bc2b95997c0202d71350c799f8c2620403a4add408" />
+			<h2><a href="store/show/36"> Test case </a></h2>
+			<h2>Test case</h2>
+			<div class="price_line">
+				<span class="price">$111.00</span>
+				<form class="button_to" method="post" action="/line_items?product_id=36" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="g9HO7C0pS32x7FBgbjQnFOlFGh37SIR2WSM/1DXGATX8aB7Zikhpe0veOlO6eA+duE8AjpqDbuVAtcedoxB8jQ==" /></form>
+			</div>
+		</div>
+:ET:@created_atf1434394342.1463385:@expires_in0

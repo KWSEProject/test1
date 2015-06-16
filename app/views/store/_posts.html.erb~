@@ -1,9 +1,10 @@
 <%= paginate @products %>
 <% @products.each do |product| %>
+
    <% cache ['entry', product] do %>   
       <div class="entry">
-         <%= image_tag(product.image_url) %>
-         <h2><%= product.title %></h2>
+         <%= image_tag(product.main_image_url) %>
+         <h2><%= product.main_title %></h2>
          <%= product.description %>
 	 
          <div class="price_line">

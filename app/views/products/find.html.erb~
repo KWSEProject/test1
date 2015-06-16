@@ -1,0 +1,17 @@
+<% if notice %>
+<p id="notice"><%= notice %></p>
+<% end %>
+
+
+<% @products.each do |product| %>
+	<% cache ['entry', product] do %>	
+		<div class="entry">
+			<%= image_tag(product.image_url) %>
+			<h2><%= product.title %></h2>
+			<%= product.description %>
+			<div class="price_line">
+				<span class="price"><%= number_to_currency(product.price) %></span>
+			</div>
+		</div>
+	<% end %>
+<% end %>

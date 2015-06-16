@@ -5,25 +5,28 @@
 <table>
 <% @products.each do |product| %>
 	<tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
+		
 		<td>
 			<%= image_tag(product.main_image_url, class: 'list_image') %>
 		</td>
 		<td class="list_description">
 			<dl>
 				<dt>
+<<<<<<< HEAD
 				
-					<h2><a href="store/show/<%= product.product_id %>"> <%= product.title %> </a></h2>
+=======
+>>>>>>> 56137fdbc1b2857078ceaa67f0bf1b08943a7a8b
+					<h2><a href="store/show/<%= product.product_id %>"> <%= product.main_title %> </a></h2>
 				</dt>
 				<dd><%= truncate(strip_tags(product.description), length: 80) %></dd>
 			</dl>
-		</td>
-		<td class="list_actions">
-			Hits : <%= product.hits %>
 		</td>
 	</tr>
 <% end %>
 </table>
 <br />
+
+
 <% if @user != 0 %>
 	<% if @user.rank == 1 %>
 		<%= link_to 'New product', new_product_path, class:"blueBtn" %>
