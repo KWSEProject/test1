@@ -32,17 +32,9 @@
 <br />
 
 <% if @users != 0 %>
-<<<<<<< HEAD
-   <% if @users.rank == 1 %>
-      <%= link_to 'New product', new_product_path, class:"blueBtn" %>
-   <% end %>
-<% end %>
-
-=======
 	<% if @users.rank == 1 %>
 		<%= link_to 'New product', new_product_path, class:"blueBtn" %>
 	<% end %>
 <% end %>
->>>>>>> 0b6e9a93a11ed0b95ea28ded4cc6f33027da0c73
 
 <p><%= will_paginate @products %></p>
