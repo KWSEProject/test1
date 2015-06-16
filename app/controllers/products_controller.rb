@@ -136,6 +136,15 @@ class ProductsController < ApplicationController
    end
   end
 
+  def find
+	#Product.where("column name is ?",@id)
+	#@parameter = "Top"
+	#@products = Product.where("close_type2 is ?",@parameter)
+        @pro = Products.find(11)
+	@products = Product.where("close_type2 is ?","Top")
+	#@product = Product.all
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_product

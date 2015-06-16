@@ -1,1 +1,41 @@
-115|5|Top
+type        name        tbl_name    rootpage    sql                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+----------  ----------  ----------  ----------  ---------------------------------------------------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+table       pants       pants       37          CREATE TABLE "pants" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "main_title" varchar, "description" text, "stock" decimal, "main_image_url" varchar, "image_url1" varchar, "size" varchar, "color" varchar, "buy_count" decimal, "product_id" decimal, "price" decimal(8,2), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, color1 varchar(7), color2 varchar(7), size1 varchar(7), size2 varchar(7), size3 varchar(7), size4 varchar(7), size5 varchar(7), size6 varchar(7), stock1 decimal, stock2 decimal, stock3 decimal, stock4 decimal, stock5 decimal, stock6 decimal)
+
+
+
+
+table       pants       pants       37          CREATE TABLE "pants" (
+
+
+
+"id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
+"main_title" varchar, 
+"description" text, 
+"stock" decimal, 
+"main_image_url" varchar, 
+"image_url1" varchar, 
+"size" varchar, 
+"color" varchar, 
+"buy_count" decimal, 
+"product_id" decimal, 
+"price" decimal(8,2), 
+"created_at" datetime NOT NULL, 
+"updated_at" datetime NOT NULL, 
+
+
+
+alter table pants color1 varchar(7), 
+color2 varchar(7), 
+size1 varchar(7), 
+size2 varchar(7), 
+size3 varchar(7), 
+size4 varchar(7), 
+size5 varchar(7), 
+size6 varchar(7), 
+stock1 decimal, 
+stock2 decimal, 
+stock3 decimal, 
+stock4 decimal, 
+stock5 decimal, 
+stock6 decimal)

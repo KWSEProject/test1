@@ -26,6 +26,7 @@ Rails.application.routes.draw do
   get "user/new" => 'user#new'
   get 'sessions/create'
   get 'sessions/destroy'
+  get "products/find" => "products/find"
   resources :users
   resources :orders
   resources :line_items
@@ -35,6 +36,7 @@ Rails.application.routes.draw do
   
   resources :products do
    get :who_bought, on: :member
+   get "products/find" => "products/find"
 
   end
   get "/:category" => 'store#posts_category'

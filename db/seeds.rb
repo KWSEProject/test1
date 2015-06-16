@@ -7,25 +7,9 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-
-CREATE TABLE my_rails_board_rows(
-id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL auto_incremente=1,
-subject varchar(255),
-name varchar(255),
-mail varchar(255),
-memo varchar(255),
-hits integer,
-created_at datetime NOT NULL,
-updated_at datetime NOT NULL);
-
-
-
 Product.delete_all
 Top.delete_all
 Pant.delete_all
-
-
-
 
 Product.create!(title: 'NO BRAKE 쭈리 7부티셔츠',
 		description:'남녀커플룩OK! 깔끔하고 심플한 영문으로 포인트!',

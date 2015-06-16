@@ -13,8 +13,27 @@
   <div id="sidebar">
     <h2><%= @products.main_title %></h2>
     <h3>내용: <%= @products.description %></h3>
-    <h4>재고: <%= @products.stock %></h4>
     <h4>가격: <%= @products.price %></h4>
+
+    <select name="Color">
+	<option value="<%= @products.color1 %>"><%= @products.color1 %></option>
+	<option value="<%= @products.color2 %>"><%= @products.color2 %></option>
+     </select>
+
+     <select name="Size">
+	<option value="L"><%= @products.size1 %></option>
+	<option value="M"><%= @products.size2 %></option>
+	<option value="S"><%= @products.size3 %></option>
+     </select>
+
+     <input type="text" name = "OrderCount" placeholder="수량을 적어주세요">
+
+    
+     <%= button_to 'Add to Cart', line_items_path(product_id:@product_id),
+					remote: true %>
+
+
+
   </div>
   
 </div>
@@ -23,11 +42,8 @@
 <div style="border: 1px solid #ffffff">
   
 
-  
  <%= image_tag(@products.image_url1) %>
 
-
-  
 
   <p><a href="/">전체 리스트 가기</a></p>
 </div>
