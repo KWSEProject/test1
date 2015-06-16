@@ -64,20 +64,45 @@ ActiveRecord::Schema.define(version: 20150615040237) do
     t.string   "color"
     t.decimal  "buy_count"
     t.decimal  "product_id"
-    t.decimal  "price",          precision: 8, scale: 2
-    t.datetime "created_at",                             null: false
-    t.datetime "updated_at",                             null: false
+    t.decimal  "price",                    precision: 8, scale: 2
+    t.datetime "created_at",                                       null: false
+    t.datetime "updated_at",                                       null: false
+    t.string   "color1",         limit: 7
+    t.string   "size1",          limit: 7
+    t.string   "size2",          limit: 7
+    t.string   "size3",          limit: 7
+    t.string   "size4",          limit: 7
+    t.string   "size5",          limit: 7
+    t.string   "size6",          limit: 7
+    t.decimal  "stock1"
+    t.decimal  "stock2"
+    t.decimal  "stock3"
+    t.decimal  "stock4"
+    t.decimal  "stock5"
+    t.decimal  "stock6"
+    t.string   "color2",         limit: 7
   end
 
   create_table "products", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
     t.string   "image_url"
-    t.decimal  "price",       precision: 8, scale: 2
-    t.datetime "created_at",                          null: false
-    t.datetime "updated_at",                          null: false
+    t.decimal  "price",                  precision: 8, scale: 2
+    t.datetime "created_at",                                     null: false
+    t.datetime "updated_at",                                     null: false
     t.decimal  "BuyCount"
     t.integer  "hits"
+    t.string   "image_url2",  limit: 50
+    t.decimal  "product_id"
+    t.string   "type",        limit: 10
+    t.string   "close_type",  limit: 10
+    t.string   "close_type2", limit: 10
+    t.decimal  "stock1"
+    t.decimal  "stock2"
+    t.decimal  "stock3"
+    t.decimal  "stock4"
+    t.decimal  "stock5"
+    t.decimal  "stock6"
   end
 
   create_table "qnas", force: :cascade do |t|
@@ -106,6 +131,16 @@ ActiveRecord::Schema.define(version: 20150615040237) do
     t.string   "color2",         limit: 7
     t.decimal  "buy_count"
     t.decimal  "product_id"
+    t.decimal  "stock1"
+    t.decimal  "stock2"
+    t.decimal  "stock3"
+    t.decimal  "stock4"
+    t.decimal  "stock5"
+    t.decimal  "stock6"
+    t.string   "size3",          limit: 7
+    t.string   "size4",          limit: 7
+    t.string   "size5",          limit: 7
+    t.string   "size6",          limit: 7
   end
 
   create_table "users", force: :cascade do |t|

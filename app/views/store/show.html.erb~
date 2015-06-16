@@ -11,11 +11,24 @@
    <%= image_tag(@products.main_image_url) %>
   </div>
   <div id="sidebar">
-    <h2><%= @products.main_title %></h2>
-    <h3>내용: <%= @products.description %></h3>
-    <h4>재고: <%= @products.stock %></h4>
-    <h4>가격: <%= @products.price %></h4>
+    <h2 class="menu10"><%= @products.main_title %></h2>
+    <table class="type02">
+	<tr>
+	    <th scope="row">내용</th>
+	    <td><%= @products.description %></td>
+	</tr>
+	<tr>
+	    <th scope="row">재고</th>
+	    <td><%= @products.stock1 %></td>
+	</tr>
+	<tr>
+	    <th scope="row">가격</th>
+	    <td><%= @products.price %></td>
+	</tr>
+    </table>
+	<%= button_to '구매하기', new_order_path(_id:@products.product_id), method: :post %>
   </div>
+  
   
 </div>
 
@@ -29,7 +42,7 @@
 
   
 
-  <p><a href="/TOP">전체 리스트 가기</a></p>
+  <p><a href="/" class="blueBtn">전체 리스트 가기</a></p>
 </div>
 
 <a style="display:scroll; position:fixed; bottom:50px; right:50px;" href="#" title=Top>

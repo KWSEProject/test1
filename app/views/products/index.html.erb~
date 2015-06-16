@@ -2,8 +2,6 @@
 
 <h1 style="font-family: Arial Black;" class="shadow2">Listing products</h1>
 
-
-
 <table>
 <% @products.each do |product| %>
 	<tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
@@ -13,7 +11,7 @@
 		<td class="list_description">
 			<dl>
 				<dt>
-				<% if product.type=="Top" %>
+				<% if product.close_type2=="Top" %>
 					<h2><a href="store/show/<%= product.product_id %>"> <%= product.title %> </a></h2>
 				<% end %>
 				</dt>
@@ -24,10 +22,25 @@
 			Hits : <%= product.hits %>
 		</td>
 	</tr>
+   <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
+      <td>
+         <%= image_tag(product.image_url, class: 'list_image') %>
+      </td>
+      <td class="list_description">
+         <dl>
+            <dt>
+               <h2><a href="store/show/<%= product.product_id %>"> <%= product.title %> </a></h2>
+            </dt>
+            <dd><%= truncate(strip_tags(product.description), length: 80) %></dd>
+         </dl>
+      </td>
+      <td class="list_actions">
+         
+      </td>
+   </tr>
 <% end %>
 </table>
 <br />
-
 <% if @user != 0 %>
 	<% if @user.rank == 1 %>
 		<%= link_to 'New product', new_product_path, class:"blueBtn" %>
@@ -35,4 +48,3 @@
 <% end %>
 
 <p><%= will_paginate @products %></p>
-

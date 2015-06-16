@@ -17,8 +17,9 @@ class OrdersController < ApplicationController
 
   # GET /orders/new
   def new
-    @product = Product.find(params[:_id])
-	Product.increment_counter(:BuyCount, @product)
+    @number = params[:_id]
+    @product = Product.where("product_id is ?",@number)
+    Product.increment_counter(:BuyCount, @product)
 
     @order = Order.new
   end

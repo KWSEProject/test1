@@ -1,19 +1,18 @@
-
 <% if notice %>
 <p id="notice"><%= notice %></p>
 <% end %>
 
 <% if @type == "Top" %>
-	<h1>Top</h1>
+   <h1>Top</h1>
 <% end %>
 <% if @type == "Pant" %>
-	<h1>Pant</h1>
+   <h1>Pant</h1>
 <% end %>
 <% if @type == "ACC" %>
-	<h1>Accessory</h1>
+   <h1>Accessory</h1>
 <% end %>
 <% if @type == "Shoes" %>
-	<h1>Shoes</h1>
+   <h1>Shoes</h1>
 <% end %>
 
 
@@ -21,7 +20,7 @@
 	<% cache ['entry', product] do %>	
 		<div class="entry">
 			<%= image_tag(product.main_image_url) %>
-			<h2><a href="store/show/<%= product.id %>"> <%= product.main_title %> </a></h2>
+			<h2><a href="store/show/<%= product.product_id %>"> <%= product.main_title %> </a></h2>
 			<h2><%= product.description %></h2>
 			<div class="price_line">
 				<span class="price"><%= number_to_currency(product.price) %></span>
@@ -31,5 +30,4 @@
 		</div>
 	<% end %>
 <% end %>
-
 

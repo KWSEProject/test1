@@ -1,5 +1,24 @@
+
+<div class="form-style-2">
+	<div class="form-style-2-heading" class="shadow2">Post a new question</div>
+	<form action="/qna/add_process" method="post">
+		<label for="field1"><span>Name</span>
+			<input type="text" class="input-field" name="name" value=""></label>
+
+		<label for="field5">
+			<span>question</span>
+			<textarea name="question" class="textarea-field"></textarea>
+		</label>
+		<label>
+			<input type="submit" value="Add">
+		</label>
+	</form>
+</div>
+
+<h4><%= flash[:alert] %></h4>
+
 <div style="background-color:#e9eaed;">
-	<h1>Post a new question</h1>
+	<h1 style="font-family: Arial Black;" class="shadow2">Post a new question</h1>
 	<form action="/qna/add_process" method="post">
 		Name: <input type="text" name="name" placeholder="Write your name" ><br>
 		Question:<br>
@@ -8,4 +27,3 @@
 	</form>
 </div>
 
-<h4><%= flash[:alert] %></h4>

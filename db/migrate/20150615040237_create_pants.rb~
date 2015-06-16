@@ -15,7 +15,5 @@ class CreatePants < ActiveRecord::Migration
 
       t.timestamps null: false
     end
-	
-    execute "ALTER TABLE pants auto_increment=1;"
   end
 end

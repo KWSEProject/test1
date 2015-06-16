@@ -2,8 +2,6 @@
 
 <h1 style="font-family: Arial Black;" class="shadow2">Listing products</h1>
 
-
-
 <table>
 <% @products.each do |product| %>
 	<tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
@@ -27,7 +25,6 @@
 <% end %>
 </table>
 <br />
-
 <% if @user != 0 %>
 	<% if @user.rank == 1 %>
 		<%= link_to 'New product', new_product_path, class:"blueBtn" %>
@@ -35,4 +32,3 @@
 <% end %>
 
 <p><%= will_paginate @products %></p>
-

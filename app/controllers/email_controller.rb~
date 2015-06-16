@@ -7,16 +7,15 @@ class EmailController < ApplicationController
 		title = params[:title]
 		content = params[:content]
 
-		gmail = Gmail.connect("gguggu23@gmail.com", "dlrkdud23")
+		gmail = Gmail.connect("gguggu23@gmail.com","dlrkdud23")
 		gmail.deliver do
 			to email
 			subject title
 			text_part do
-				body contect
+				body content
 			end
 		end
 
 		gmail.logout
 	end
-
 end
