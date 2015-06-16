@@ -17,7 +17,8 @@
 		min-height: 100px;
 		
 		img {
-			width: 8.8%;
+			width: 100px;
+			height: 125px;
 			margin-right: 5px;
 			margin-bottom: 5px;
 			position: absolute;
@@ -34,8 +35,8 @@
 
 		p, div.price_line {
 			margin-left: 100px;
-			margin-top: 50px;
-			margin-bottom: 1em;
+			margin-top: 40px;
+			margin-bottom: 30px;
 
 			form, div {
 				display: inline;
@@ -48,4 +49,45 @@
 			margin-right: 3em;
 		}
 	}
+}
+
+table.type02 {
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+  margin : 20px 10px;
+}
+table.type02 th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    background: #eee;
+}
+table.type02 td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu10 {
+    margin:0 0 10px 0;
+    padding:2px 8px;
+    border-width:5px 0;
+    border-color:#eda3bd;
+    border-style:solid;
+    background:#fef3f7;
+    color:#b44069;
+    line-height:140%;
+    font-weight:bold;
+    text-align:center;
 }

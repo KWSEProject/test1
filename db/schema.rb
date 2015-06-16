@@ -64,9 +64,21 @@ ActiveRecord::Schema.define(version: 20150615040237) do
     t.string   "color"
     t.decimal  "buy_count"
     t.decimal  "product_id"
-    t.decimal  "price",          precision: 8, scale: 2
-    t.datetime "created_at",                             null: false
-    t.datetime "updated_at",                             null: false
+    t.decimal  "price",                    precision: 8, scale: 2
+    t.datetime "created_at",                                       null: false
+    t.datetime "updated_at",                                       null: false
+    t.decimal  "stock1"
+    t.decimal  "stock2"
+    t.decimal  "stock3"
+    t.decimal  "stock4"
+    t.decimal  "stock5"
+    t.decimal  "stock6"
+    t.string   "size3",          limit: 7
+    t.string   "size4",          limit: 7
+    t.string   "size5",          limit: 7
+    t.string   "size6",          limit: 7
+    t.string   "color1",         limit: 7
+    t.string   "color2",         limit: 7
   end
 
   create_table "products", force: :cascade do |t|

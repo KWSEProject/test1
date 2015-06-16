@@ -1,5 +1,5 @@
 #encoding=utf-8
-<div class="depot_form">
+<div class="form-style-10">
 
 <%= form_for @user do |f| %>
   <% if @user.errors.any? %>
@@ -17,17 +17,25 @@
   <fieldset>
   <legend>Enter User Details</legend>
 
-  <div class="field">
+  <div class="section">
+   <div class="inner-wrap">
     <%= f.label :name, 'ID:'  %><br>
     <%= f.text_field :name, size: 30 %>
+   </div>
   </div>
-  <div class="field">
+
+  <div class="section">
+   <div class="inner-wrap">
     <%= f.label :password, '비밀번호:' %><br>
     <%= f.password_field :password, size: 30 %>
+   </div>
   </div>
-  <div class="field">
+
+  <div class="section">
+   <div class="inner-wrap">
     <%= f.label :password_confirmation, '비밀확인:' %><br>
     <%= f.password_field :password_confirmation, size: 30 %>
+  </div>
   </div>
 
 

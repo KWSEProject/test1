@@ -5,14 +5,10 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
-    @products = Product.search(params[:search], params[:page])
+    @products = (Product.search(params[:search], params[:page])).paginate(all:, page: params[:page], per_page: 2)
     
     if session[:user_id]
-<<<<<<< HEAD
 	@users = User.find(params[:user_id])
-=======
-       @users = User.find(params[:user_id])
->>>>>>> 0b6e9a93a11ed0b95ea28ded4cc6f33027da0c73
     else
 	@users = 0
     end
