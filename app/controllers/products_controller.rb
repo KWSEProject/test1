@@ -6,32 +6,41 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = (Product.search(params[:search], params[:page])).paginate(page: params[:page], per_page: 2)
-    
+
     if session[:user_id]
-	@users = User.find(params[:user_id])
+       @user = User.find(params[:user_id])
     else
-	@users = 0
+       @user = 0
     end
   end
 
   # GET /products/1
   # GET /products/1.json
   def show
+    @id = params[:id]
+	Product.increment_counter(:hits, @id)
   end
 
   # GET /products/new
   def new
     @product = Product.new
+    @id = params[:id]
+	Product.increment_counter(:hits, @id)
   end
 
   # GET /products/1/edit
   def edit
+    @id = params[:id]
+	Product.increment_counter(:hits, @id)
   end
 
   # POST /products
   # POST /products.json
   def create
+    @id = params[:id]
+	Product.increment_counter(:hits, @id)
     @product = Product.new(product_params)
+    @product.hits = params[:hits]
     @product.title = params[:title]
     @product.description = params[:description]
     @product.image_url = params[:image_url]
@@ -105,6 +114,8 @@ class ProductsController < ApplicationController
   # PATCH/PUT /products/1
   # PATCH/PUT /products/1.json
   def update
+    @id = params[:id]
+	Product.increment_counter(:hits, @id)
     respond_to do |format|
       if @product.update(product_params)
         format.html { redirect_to @product, notice: 'Product was successfully updated.' }
@@ -134,6 +145,17 @@ class ProductsController < ApplicationController
          format.atom
       end
    end
+  end
+
+  def find
+	#Product.where("column name is ?",@id)
+	#@parameter = "Top"
+	#@products = Product.where("close_type2 is ?",@parameter)
+        #@pro = Products.find(11)
+	#@pro = "Top"
+	#@products = Product.where("close_type2 is ?","Top")
+	@products = Product.where("close_type2 is ?",@pro)
+	#@product = Product.all
   end
 
   private

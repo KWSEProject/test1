@@ -19,14 +19,16 @@
 	</tr>
 	<tr>
 	    <th scope="row">재고</th>
-	    <td><%= @products.stock %></td>
+	    <td><%= @products.stock1 %></td>
 	</tr>
 	<tr>
 	    <th scope="row">가격</th>
 	    <td><%= @products.price %></td>
 	</tr>
     </table>
+	<%= button_to '구매하기', new_order_path(_id:@products.product_id), method: :post %>
   </div>
+  
   
 </div>
 
@@ -34,13 +36,9 @@
 <div style="border: 1px solid #ffffff">
   
 
-  
  <%= image_tag(@products.image_url1) %>
 
-
-  
-
-  <p><a href="/" class="blueBtn">전체 리스트 가기</a></p>
+ <a href="/" class="blueBtn">전체 리스트 가기</a></p>
 </div>
 
 <a style="display:scroll; position:fixed; bottom:50px; right:50px;" href="#" title=Top>

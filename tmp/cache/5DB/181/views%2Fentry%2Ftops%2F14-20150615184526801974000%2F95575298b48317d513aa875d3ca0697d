@@ -1,0 +1,10 @@
+o: ActiveSupport::Cache::Entry:@valueI"i		<div class="entry">
+			<img src="/images/main2PNG" alt="Main2png" />
+			<h2><a href="store/show/14"> PARIS 강아지 자수 반팔티셔츠 </a></h2>
+			<h2>영문과 강아지 자수로 포인트가 되는 베이직 티셔츠!</h2>
+			<div class="price_line">
+				<span class="price">$13,000.00</span>
+				<form class="button_to" method="post" action="/line_items?product_id=14" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="6yrJ4strmsv9686JzKPYHy4T5JswC1nNO9UIGuNE+pej178v7yR5ntu8sotseSPotQo5slO+H6hFA4Tm6bzFtw==" /></form>
+			</div>
+		</div>
+:ET:@created_atf1434394289.6516013:@expires_in0
