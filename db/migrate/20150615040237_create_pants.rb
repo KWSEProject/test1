@@ -11,7 +11,7 @@ class CreatePants < ActiveRecord::Migration
       t.decimal:buy_count
       t.decimal:product_id
 
-      t.decimal :price, precision: 8, scale: 2
+      t.decimal :price
 
       t.timestamps null: false
     end
