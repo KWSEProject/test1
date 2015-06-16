@@ -1,0 +1,10 @@
+o: ActiveSupport::Cache::Entry:@valueI"		<div class="entry">
+			<img src="/assets/main8-5694719b6663fccff58b5ffee3a4d96cdff3342d79f06cbf0a3c699296da0eed.jpg" alt="Main8 5694719b6663fccff58b5ffee3a4d96cdff3342d79f06cbf0a3c699296da0eed" />
+			<h2><a href="store/show/8.0"> 바이탈 스판 밴딩팬츠 </a></h2>
+			<h2>입으면 벗기싫을 만큼 편안한 밴딩팬츠!밴딩으로 편안하면서 캐주얼한 스타일을 연출해보세요!</h2>
+			<div class="price_line">
+				<span class="price">$19,000.00</span>
+				<form class="button_to" method="post" action="/line_items?product_id=20" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="EiErIdFo6k65LwsiOXanp1A2iheCk/ZDKYhDn6bpkH9tmPsUdgnISEMdYRHtOo8uATyQhONYHNAwHrvWMD/txw==" /></form>
+			</div>
+		</div>
+:ET:@created_atf1434426182.1673543:@expires_in0

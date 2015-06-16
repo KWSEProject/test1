@@ -5,18 +5,20 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
-    @products = Product.search(params[:search], params[:page])
+    @products = (Product.search(params[:search], params[:page])).paginate(page: params[:page], per_page: 2)
     
     if session[:user_id]
-       @users = User.find(params[:user_id])
+       @user = User.find(params[:user_id])
     else
-       @users = 0
+       @user = 0
     end
   end
 
   # GET /products/1
   # GET /products/1.json
   def show
+  	@id = params[:id]
+	Product.increment_counter(:hits, @id)
   end
 
   # GET /products/new
@@ -140,8 +142,10 @@ class ProductsController < ApplicationController
 	#Product.where("column name is ?",@id)
 	#@parameter = "Top"
 	#@products = Product.where("close_type2 is ?",@parameter)
-        dddddddddd
-	@products = Product.where("close_type2 is ?","Top")
+        #@pro = Products.find(11)
+	#@pro = "Top"
+	#@products = Product.where("close_type2 is ?","Top")
+	@products = Product.where("close_type2 is ?",@pro)
 	#@product = Product.all
   end
 

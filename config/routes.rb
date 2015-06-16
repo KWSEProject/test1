@@ -10,7 +10,7 @@ Rails.application.routes.draw do
      get 'login' => :new
    post 'login' => :create
    delete 'logout' => :destroy
-     post 'qna/add_process' => 'qna#add_process'
+   post 'qna/add_process' => 'qna#add_process'
    get 'qna/list' => 'qna#list'
    get 'qna/add' => 'qna#add'
    get 'qna/add/:id' => 'qna#edit'
@@ -22,21 +22,20 @@ Rails.application.routes.draw do
    get 'qna/delete_comment_complete/:id' => 'qna#delete_comment_complete'
   end
   
-  
   get "user/new" => 'user#new'
   get 'sessions/create'
   get 'sessions/destroy'
-  get "products/find" => "products/find"
+  
   resources :users
   resources :orders
   resources :line_items
   resources :carts
 
   get "store/index"
+  post 'orders/new' => 'orders#new'
   
   resources :products do
    get :who_bought, on: :member
-   get "products/find" => "products/find"
 
   end
   get "/:category" => 'store#posts_category'

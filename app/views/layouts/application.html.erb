@@ -19,34 +19,46 @@
 <body class="<%= controller.controller_name %>">
    <div id="login">
       <% if session[:user_id] %>
-         <a href ="users/<% session[:user_id]%>" class="pinkBtn" >My Page</a>
+         <!--<a href ="users/" class="pinkBtn" >My Page</a>-->
+   <%= link_to 'My Page', @user , class:"pinkBtn"%>
          <%= link_to 'Logout', logout_path, method: :delete, class:"pinkBtn" %>
       <% else %>
          <%= link_to 'Login', login_path, class:"pinkBtn" %>
          <%= link_to 'Sign Up', new_user_path , class:"pinkBtn"%>
       <% end %>
    </div>
-
+   
    <div id="banner">
-      <a href="/products"><%= image_tag("IU.gif") %></a>
-
+          <%= image_tag("IU.gif") %>
       <%= @page_title || "KWSE cloth shop" %>
    </div>
+
    
  <div id="rows">
    <div id='cssmenu'>
-      	    <ul>
-               <li><%= link_to 'Home',  products_path(:user_id => session[:user_id] )%> </li>   
-               <li><a href ="/qna/list">QA</a></li>
+      <ul>
+               <li><%= link_to 'Home',  products_path(:user_id => session[:user_id] )%> </li>  
+   <% if session[:user_id] %> 
+               <li><%= link_to 'QA', qna_list_path %></li>
                <li><a href="/email/email_form">Contact</a></li>
                <li><%= link_to 'Orders',   orders_path %></li>
                <li><a href="/store/index">Best</a></li>
                <li><%= link_to 'Users', users_path %></li>
+   <% end %>
            </ul>
    </div>
-   
  </div>
 
+    <form action="/1" method="GET">
+
+        <select name="Find">
+		<option value="구매횟수">구매횟수</option>
+		<option value="추천횟수">추천횟수</option>
+		<option value="최신등록순">최신등록순</option>
+		<option value="가격순">가격순</option>
+   	</select>
+	    <input type="submit" value="검색">
+     </form>
 
    <div id="columns">
       <div id="side">

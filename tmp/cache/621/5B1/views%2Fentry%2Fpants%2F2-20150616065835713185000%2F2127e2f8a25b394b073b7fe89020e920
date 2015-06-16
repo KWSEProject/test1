@@ -1,0 +1,11 @@
+o: ActiveSupport::Cache::Entry:@valueI"      <div class="entry">
+         <img src="/assets/main7-e9971baeabea39e307a1fda0e9662c7bd71b04694aa94143bea260c7d559f2fe.jpg" alt="Main7 e9971baeabea39e307a1fda0e9662c7bd71b04694aa94143bea260c7d559f2fe" />
+         <h2><a href="store/show/7.0"> 스티치 스판 면반바지 </a></h2>
+         <h2>딱좋은길이! ?감기는 핏! 반바지의정석
+시선강탈~!</h2>
+         <div class="price_line">
+            <span class="price">$29,000.00</span>
+            <form class="button_to" method="post" action="/line_items?product_id=2" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="2kwn/tSV+PYzmaj3XIBA1HVR60vh6vX1ncLpYZecp1gG404Wu71mMKy1fGeRHMMnJEUBir6MLshqJYj8JZkGow==" /></form>
+         </div>
+      </div>
+:ET:@created_atf1434449968.2716215:@expires_in0

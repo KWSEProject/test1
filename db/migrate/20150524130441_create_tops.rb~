@@ -17,7 +17,7 @@ class CreateTops < ActiveRecord::Migration
       t.string :image_url4		# 착용 이미지3
       t.string :image_url5		# 착용 이미지4		
 
-      t.decimal :price, precision: 8, scale: 2
+      t.decimal :price
 
       t.timestamps null: false
     end

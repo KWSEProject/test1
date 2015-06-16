@@ -1,0 +1,10 @@
+o: ActiveSupport::Cache::Entry:@valueI"$      <div class="entry">
+         <img src="/assets/main5-483eb57df3510a738268050422c67ce5f4e1ab757ad2c3e4a95cd4f2a0c0f35d.jpg" alt="Main5 483eb57df3510a738268050422c67ce5f4e1ab757ad2c3e4a95cd4f2a0c0f35d" />
+         <h2><a href="store/show/5.0"> MA-1 슬라브 워싱 반팔티 </a></h2>
+         <h2>ma-1 포켓 포인트로 데일리와 유니크함을 더한 베이직 티셔츠!</h2>
+         <div class="price_line">
+            <span class="price">$23,000.00</span>
+            <form class="button_to" method="post" action="/line_items?product_id=27" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="Gn1kn5Qz92j6kcoZtFL0vxMh906upen58W5MmmoPR0tSgBJSsHwUPdzGthsUiA9IiDgqZ80Qr5yPuMBmYPd4aw==" /></form>
+         </div>
+      </div>
+:ET:@created_atf1434437938.0774329:@expires_in0

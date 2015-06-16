@@ -1,0 +1,10 @@
+o: ActiveSupport::Cache::Entry:@valueI"�		<div class="entry">
+			<img src="/assets/main10-ad0c251e258781ef7cc19e46ebe4c5deaa6b87f38e3a61b5960cea7493d6aca1.jpg" alt="Main10 ad0c251e258781ef7cc19e46ebe4c5deaa6b87f38e3a61b5960cea7493d6aca1" />
+			<h2><a href="store/show/10.0"> 누구나 입는 기본 슬랙스 </a></h2>
+			<h2>스판이 들어있어서 굉장히 착용감이 좋은 슬랙스!</h2>
+			<div class="price_line">
+				<span class="price">$29,000.00</span>
+				<form class="button_to" method="post" action="/line_items?product_id=5" data-remote="true"><input type="submit" value="Add to Cart" /><input type="hidden" name="authenticity_token" value="dh4PmJj47rQaBoOtQihL1Sf/ABVteSGeCI2H+p6jUQmqsWZw99BwcoUqVz2PtMgmduvq1DIf+qP/auZnLKbw8g==" /></form>
+			</div>
+		</div>
+:ET:@created_atf1434450127.971961:@expires_in0

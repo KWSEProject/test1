@@ -2,45 +2,31 @@
 
 <h1 style="font-family: Arial Black;" class="shadow2">Listing products</h1>
 
-<select name="Find">
-	<option value="Top">Top</option>
-	<option value="Pant">Pant</option>
-	<option value="Accessory">Accessory</option>
-	<option value="Shoes">Shoes</option>
-</select>
-<form action="products_find_path" method="GET">
-<input type="text" name = "Word" placeholder="Find Word">
-    <input type="submit" value="Find">
-</form>
-
 <table>
 <% @products.each do |product| %>
 	<tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
 		
 		<td>
-			<%= image_tag(product.image_url, class: 'list_image') %>
+			<%= image_tag(product.main_image_url, class: 'list_image') %>
 		</td>
 		<td class="list_description">
 			<dl>
 				<dt>
-					<h2><a href="store/show/<%= product.product_id %>"> <%= product.title %> </a></h2>
+					<h2><a href="store/show/<%= product.product_id %>"> <%= product.main_title %> </a></h2>
 				</dt>
 				<dd><%= truncate(strip_tags(product.description), length: 80) %></dd>
 			</dl>
-		</td>
-		<td class="list_actions">
-			
 		</td>
 	</tr>
 <% end %>
 </table>
 <br />
 
-<% if @users != 0 %>
-	<% if @users.rank == 1 %>
+
+<% if @user != 0 %>
+	<% if @user.rank == 1 %>
 		<%= link_to 'New product', new_product_path, class:"blueBtn" %>
 	<% end %>
 <% end %>
 
 <p><%= will_paginate @products %></p>
-
