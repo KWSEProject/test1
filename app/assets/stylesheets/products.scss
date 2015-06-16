@@ -2,6 +2,59 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .products {
+	h1 {
+		margin: 0;
+		padding-bottom: 0.5em;
+		font: 50px sans-serif;
+		color: #226;
+		border-bottom: 3px dotted #77d;
+	}
+
+	.entry {
+		overflow: auto;
+		margin-top: 1em;
+		border-bottom: 1px dotted #77d;
+		min-height: 100px;
+		font: 20px;
+		
+		img {
+			width: 200px;
+			height: 225px;
+			margin-right: 5px;
+			margin-bottom: 5px;
+			position: absolute;
+		}
+
+		h2 {
+			font-size: 19px;
+			font-family: sans-serif;
+			margin-left: 240px;
+			margin-top: 0;
+			margin-bottom: 2px;
+			color: #277;
+		}
+
+		p, div.price_line {
+			margin-left: 240px;
+			margin-top: 40px;
+			margin-bottom: 150px;
+			font-size: 15px;
+
+			form, div {
+				display: inline;
+			}
+		}
+
+		.price {
+			color: #44a;
+			font-weight: bold;
+			font-size: 17px;
+			margin-right: 3em;
+		}
+	}
+}
+
+.products {
 	table {
 		border-collapse: collapse;
 	}

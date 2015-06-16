@@ -45,5 +45,6 @@ group :development, :test do
   gem 'spring'
   gem 'will_paginate', '~> 3.0'
   gem 'kaminari'
+  gem 'bourbon'
 end
 

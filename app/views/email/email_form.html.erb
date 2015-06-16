@@ -1,9 +1,51 @@
-<br>
-<h1 style="font-family: Arial Black;" class="shadow2">Send Email</h1>
-<form action="/email/email_send" method="post" style="font-size: 15px;"
-style="text-align: left;">
-	Email: <input type="text" name="email"><br>
-	제목: <input type="text" name="title"><br>
-	내용: <textarea rows="5" cols="40" name="content"></textarea><br>
-	<input type="submit" class="blueBtn" value="send">
-</form>
+
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Contact Form | CodyHouse</title>
+</head>
+<body>
+	<form class="cd-form floating-labels" action="/email/email_send" method="post" >
+		<fieldset>
+			<legend>Send E-mail</legend>
+
+			<div class="error-message">
+				<p>Please enter a valid email address</p>
+			</div>
+
+			<div class="icon">
+				<label class="cd-label" for="cd-name">Name</label>
+				<input class="user" type="text" name="name" id="cd-name" required>
+		  	  </div> 
+
+
+		    <div class="icon">
+		    	<label class="cd-label" for="cd-email">Email</label>
+				<input class="email error" type="email" name="email" id="cd-email" required>
+		    </div>
+		</fieldset>
+
+		<fieldset>
+			<div class="icon">
+				<label class="cd-label" for="cd-textarea">Project description</label>
+      			<textarea class="message" name="content" id="cd-textarea" required></textarea>
+			</div>
+
+			<div>
+		      	<input type="submit" value="Send Message">
+		    </div>
+		</fieldset>
+	</form>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

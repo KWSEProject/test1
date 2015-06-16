@@ -4,15 +4,16 @@ class EmailController < ApplicationController
 
 	def email_send
 		email = params[:email]
-		title = params[:title]
+		name = params[:name]
 		content = params[:content]
+		radiobutton = params[:radiobutton{:id=cd-radio-1}]
 
 		gmail = Gmail.connect("gguggu23@gmail.com","dlrkdud23")
 		gmail.deliver do
 			to email
-			subject title
+			subject "From customer #{name}"
 			text_part do
-				body content
+				body "#{radiobutton} : #{content}"
 			end
 		end
 
