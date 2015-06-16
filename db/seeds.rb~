@@ -7,9 +7,13 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
+<<<<<<< HEAD
 
 
 
+
+=======
+>>>>>>> 7d8671e076ad16a95205a178d3763ec232066697
 Product.delete_all
 Top.delete_all
 Pant.delete_all

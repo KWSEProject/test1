@@ -5,6 +5,8 @@ class StoreController < ApplicationController
 
    def index
       @products = Product.order(:title).paginate(page: params[:page], per_page: 2)
+          @id = params[:id]
+	Product.increment_counter(:hits, @id)
    end
 
    def posts_category
@@ -19,7 +21,7 @@ class StoreController < ApplicationController
          @products = Acc.all
          @type = "Acc"
       when "SHOES"
-         @products = Shoes.all
+         @products = Shoes.alle
          @type = "Shoes"
       end
       
@@ -27,8 +29,9 @@ class StoreController < ApplicationController
 
    def show
       @id = params[:id]
-
+      
       @a = Product.find_by_product_id(@id)
+	Product.increment_counter(:hits, @a)
       @type = @a.close_type2
       
       if @type=="Top"

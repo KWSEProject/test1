@@ -6,14 +6,13 @@
 <% @products.each do |product| %>
 	<tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
 		<td>
-			<%= image_tag(product.image_url, class: 'list_image') %>
+			<%= image_tag(product.main_image_url, class: 'list_image') %>
 		</td>
 		<td class="list_description">
 			<dl>
 				<dt>
-				<% if product.close_type2=="Top" %>
+				
 					<h2><a href="store/show/<%= product.product_id %>"> <%= product.title %> </a></h2>
-				<% end %>
 				</dt>
 				<dd><%= truncate(strip_tags(product.description), length: 80) %></dd>
 			</dl>
@@ -22,22 +21,6 @@
 			Hits : <%= product.hits %>
 		</td>
 	</tr>
-   <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
-      <td>
-         <%= image_tag(product.image_url, class: 'list_image') %>
-      </td>
-      <td class="list_description">
-         <dl>
-            <dt>
-               <h2><a href="store/show/<%= product.product_id %>"> <%= product.title %> </a></h2>
-            </dt>
-            <dd><%= truncate(strip_tags(product.description), length: 80) %></dd>
-         </dl>
-      </td>
-      <td class="list_actions">
-         
-      </td>
-   </tr>
 <% end %>
 </table>
 <br />
