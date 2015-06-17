@@ -7,17 +7,14 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 40e08c88db10e10208f6814c176f48aa2d1fb685
 Product.delete_all
 Top.delete_all
 Pant.delete_all
 
 Product.create!(main_title: 'NO BRAKE 쭈리 7부티셔츠',
       description:'남녀커플룩OK! 깔끔하고 심플한 영문으로 포인트!',
-      main_image_url: 'main1.PNG',
+      main_image_url:'main1.PNG',
       image_url1:'image1.PNG',
       price: 18000,
       BuyCount:0,
@@ -26,7 +23,7 @@ Product.create!(main_title: 'NO BRAKE 쭈리 7부티셔츠',
 
 Product.create!(main_title: 'PARIS 강아지 자수 반팔티셔츠',
       description:'영문과 강아지 자수로 포인트가 되는 베이직 티셔츠!',
-      main_image_url: 'main2.PNG',
+      main_image_url:'main2.PNG',
       image_url1:'image2.PNG',
       price: 13000,
       BuyCount:0,
@@ -37,7 +34,7 @@ Product.create!(main_title: '베이직한 워싱 슬라브 7부티',
       description:'통기성 좋은 부드러운 슬라브소재에
 6가지 다양한 컬러와 사이즈까지!
 올 여름 데일리룩 완벽대비!',
-      main_image_url: 'main3.PNG',
+      main_image_url:'main3.PNG',
       image_url1:'image3.PNG',
       price: 16000,
       BuyCount:0,
@@ -46,7 +43,7 @@ Product.create!(main_title: '베이직한 워싱 슬라브 7부티',
 
 Product.create!(main_title: '슬라브 헨리넥 7부티',
       description:'헨리넥은 핏이 생명!칠부소매에 적절한 핏으로 어디든 받쳐입기 좋은 데일리 티셔츠!',
-      main_image_url: 'main4.jpg',
+      main_image_url:'main4.jpg',
       image_url1:'image4.PNG',
       price: 18000,
       BuyCount:0,
@@ -113,7 +110,7 @@ Product.create!(main_title: '누구나 입는 기본 슬랙스',
 
 Top.create!(main_title: 'NO BRAKE 쭈리 7부티셔츠',
       description: '남녀커플룩OK! 깔끔하고 심플한 영문으로 포인트!',   
-      main_image_url: 'main1PNG',
+      main_image_url: 'main1.PNG',
       image_url1: 'image1.PNG',
       buy_count:0,
       product_id:1,
@@ -135,7 +132,7 @@ Top.create!(main_title: 'NO BRAKE 쭈리 7부티셔츠',
 
 Top.create!(main_title: 'PARIS 강아지 자수 반팔티셔츠',
       description: '영문과 강아지 자수로 포인트가 되는 베이직 티셔츠!',   
-      main_image_url: 'main2PNG',
+      main_image_url: 'main2.PNG',
       image_url1: 'image2.PNG',
       buy_count:0,
       product_id:2,
@@ -159,7 +156,7 @@ Top.create!(main_title: '베이직한 워싱 슬라브 7부티',
       description: '통기성 좋은 부드러운 슬라브소재에
 6가지 다양한 컬러와 사이즈까지!
 올 여름 데일리룩 완벽대비!',   
-      main_image_url: 'main3PNG',
+      main_image_url: 'main3.PNG',
       image_url1: 'image3.PNG',
       buy_count:0,
       product_id:3,
@@ -182,7 +179,7 @@ Top.create!(main_title: '베이직한 워싱 슬라브 7부티',
 Top.create!(main_title: '슬라브 헨리넥 7부티',
       description: '헨리넥은 핏이 생명!칠부소매에 적절한 핏으로 어디든 받쳐입기 좋은 데일리 티셔츠!',   
       main_image_url: 'main4.jpg',
-      image_url1: 'image4.PNG',
+      image_url1: 'image4.jpg',
       buy_count:0,
       product_id:4,
       color1:'Black',
