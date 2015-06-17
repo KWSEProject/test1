@@ -278,6 +278,7 @@ body {
   }
 }
 
+.form {
 input, textarea { 
     padding: 9px; 
     border: solid 1px #E5E5E5; 
@@ -320,4 +321,5 @@ input:focus, textarea:focus {
     -moz-border-radius: 5px; 
     -webkit-border-radius: 5px; 
     }
+}
 

@@ -49,7 +49,7 @@
    </div>
  </div>
 
-    <form action="/" method="GET">
+    <form action="/1" method="GET">
 
         <select name="Find">
 		<option value="구매횟수">구매횟수</option>

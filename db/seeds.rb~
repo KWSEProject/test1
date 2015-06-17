@@ -11,13 +11,15 @@
 Product.delete_all
 Top.delete_all
 Pant.delete_all
+Accessory.delete_all
 
 Product.create!(main_title: 'NO BRAKE 쭈리 7부티셔츠',
       description:'남녀커플룩OK! 깔끔하고 심플한 영문으로 포인트!',
       main_image_url:'main1.PNG',
       image_url1:'image1.PNG',
       price: 18000,
-      BuyCount:0,
+      BuyCount:20,
+      hits:30,
       product_id:1,
       close_type2:'Top')
 
@@ -26,7 +28,8 @@ Product.create!(main_title: 'PARIS 강아지 자수 반팔티셔츠',
       main_image_url:'main2.PNG',
       image_url1:'image2.PNG',
       price: 13000,
-      BuyCount:0,
+      BuyCount:5,
+      hits:5,
       product_id:2,
       close_type2:'Top')
 
@@ -37,7 +40,8 @@ Product.create!(main_title: '베이직한 워싱 슬라브 7부티',
       main_image_url:'main3.PNG',
       image_url1:'image3.PNG',
       price: 16000,
-      BuyCount:0,
+      BuyCount:92,
+      hits:92,
       product_id:3,
       close_type2:'Top')
 
@@ -46,7 +50,8 @@ Product.create!(main_title: '슬라브 헨리넥 7부티',
       main_image_url:'main4.jpg',
       image_url1:'image4.PNG',
       price: 18000,
-      BuyCount:0,
+      BuyCount:150,
+      hits:140,
       product_id:4,
       close_type2:'Top')
 
@@ -55,7 +60,8 @@ Product.create!(main_title: 'MA-1 슬라브 워싱 반팔티',
       main_image_url: 'main5.jpg',
       image_url1:'image5.jpg',
       price: 23000,
-      BuyCount:0,
+      BuyCount:75,
+      hits:57,
       product_id:5,
       close_type2:'Top')
 
@@ -65,7 +71,8 @@ Product.create!(main_title: '레인보우 워싱 9부 면슬랙스',
       main_image_url: 'main6.jpg',
       image_url1:'image6.jpg',
       price: 32000,
-      BuyCount:0,
+      BuyCount:30,
+      hits:25,
       product_id:6,
       close_type2:'Pant')
 
@@ -75,7 +82,8 @@ Product.create!(main_title: '스티치 스판 면반바지',
       main_image_url: 'main7.jpg',
       image_url1:'image7.jpg',
       price: 29000,
-      BuyCount:0,
+      BuyCount:172,
+      hits:160,
       product_id:7,
       close_type2:'Pant')
 
@@ -84,7 +92,8 @@ Product.create!(title: '바이탈 스판 밴딩팬츠',
       main_image_url: 'main8.jpg',
       image_url1:'image8.jpg',
       price: 19000,
-      BuyCount:0,
+      BuyCount:77,
+      hits:70,
       product_id:8,
       close_type2:'Pant')
 
@@ -93,7 +102,8 @@ Product.create!(main_title: '트렌디 디스트로이드 데님팬츠',
       main_image_url: 'main9.jpg',
       image_url1:'image9.jpg',
       price: 19000,
-      BuyCount:0,
+      BuyCount:32,
+      hits:29,
       product_id:9,
       close_type2:'Pant')
 
@@ -102,10 +112,60 @@ Product.create!(main_title: '누구나 입는 기본 슬랙스',
       main_image_url: 'main10.jpg',
       image_url1:'image10.jpg',
       price: 29000,
-      BuyCount:0,
+      BuyCount:200,
+      hits:180,
       product_id:10,
       close_type2:'Pant')
 
+Product.create!(main_title: 'GREY DENIM-SNAP BACK',
+      description:'데님의 원단으로 스트릿하게! 스타일리쉬한 스냅백!',
+      main_image_url: 'main11.jpg',
+      image_url1:'image11.jpg',
+      price: 35000,
+      BuyCount:300,
+      hits:270,
+      product_id:11,
+      close_type2:'Acc')
+
+Product.create!(main_title: 'CHAMPIONSHIPS-SNAP BACK',
+      description:'스냅백 하나로 포인트가 될 수 있는 it 아이템!',
+      main_image_url: 'main12.jpg',
+      image_url1:'image12.jpg',
+      price: 27000,
+      BuyCount:170,
+      hits:123,
+      product_id:12,
+      close_type2:'Acc')
+
+Product.create!(main_title: 'SINCE1988-SNAP BACK',
+      description:'볼트자수와 1988숫자 자수로 포인트! 빈티지아이템!',
+      main_image_url: 'main13.jpg',
+      image_url1:'image13.jpg',
+      price: 35000,
+      BuyCount:140,
+      hits:50,
+      product_id:13,
+      close_type2:'Acc')
+
+Product.create!(main_title: '무지 파스텔 스냅백',
+      description:'기본이지만 기본같지않은 데일리하게 쓰기좋은 무지 스냅백!',
+      main_image_url: 'main14.jpg',
+      image_url1:'image14.jpg',
+      price: 11000,
+      BuyCount:190,
+      hits:170,
+      product_id:14,
+      close_type2:'Acc')
+
+Product.create!(main_title: '덧신양말',
+      description:'어떤 신발에도 잘 어울리는 양말!',
+      main_image_url: 'main15.jpg',
+      image_url1:'image15.jpg',
+      price: 9800,
+      BuyCount:210,
+      hits:173,
+      product_id:15,
+      close_type2:'Acc')
 
 
 Top.create!(main_title: 'NO BRAKE 쭈리 7부티셔츠',
@@ -331,6 +391,56 @@ Pant.create!(main_title:'누구나 입는 기본 슬랙스',
       stock5:1,
       stock6:0,
       price: 29000)
+
+Accessory.create!(main_title: 'GREY DENIM-SNAP BACK',
+      description:'데님의 원단으로 스트릿하게! 스타일리쉬한 스냅백!',
+      main_image_url:'main11.jpg',
+      image_url1:'image11.jpg',
+      buy_count:300,
+      price: 35000,
+      product_id:11,
+      hits:270,
+      stock1:4	)
+
+Accessory.create!(main_title: 'CHAMPIONSHIPS-SNAP BACK',
+      description:'스냅백 하나로 포인트가 될 수 있는 it 아이템!',
+      main_image_url: 'main12.jpg',
+      image_url1:'image12.jpg',
+      buy_count:170,
+      price: 27000,
+      product_id:12,
+      hits:123,
+      stock1:5	)
+
+Accessory.create!(main_title: 'SINCE1988-SNAP BACK',
+      description:'볼트자수와 1988숫자 자수로 포인트! 빈티지아이템!',
+      main_image_url: 'main13.jpg',
+      image_url1:'image13.jpg',
+      buy_count:140,
+      price: 35000,
+      product_id:13,
+      hits:50,
+      stock1:5	)
+
+Accessory.create!(main_title: '무지 파스텔 스냅백',
+      description:'기본이지만 기본같지않은 데일리하게 쓰기좋은 무지 스냅백!',
+      main_image_url: 'main14.jpg',
+      image_url1:'image14.jpg',
+      buy_count:190,
+      price: 11000,
+      product_id:14,
+      hits:170,
+      stock1:2	)
+
+Accessory.create!(main_title: '덧신양말',
+      description:'어떤 신발에도 잘 어울리는 양말!',
+      main_image_url: 'main15.jpg',
+      image_url1:'image15.jpg',
+      buy_count:210,
+      price: 9800,
+      product_id:15,
+      hits:173,
+      stock1:2	)
 
 
 

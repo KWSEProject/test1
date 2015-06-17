@@ -29,7 +29,11 @@
     </tr>
     <tr>
         <th scope="row">성별</th>
-        <td><%= @user.gender %></td>
+	<% if @user.gender==0 %>
+        	<td>남</td>
+	<% else %>
+        	<td>여</td>
+	<% end %>
     </tr>
     </tbody>
 </table>

@@ -41,12 +41,13 @@ class ProductsController < ApplicationController
 	Product.increment_counter(:hits, @id)
     @product = Product.new(product_params)
     @product.hits = params[:hits]
-    @product.title = params[:title]
+    @product.main_title = params[:title]
     @product.description = params[:description]
-    @product.image_url = params[:image_url]
-    @product.image_url2 = params[:image_url2]
+    @product.main_image_url = params[:image_url]
+    @product.image_url1 = params[:image_url2]
     @product.price = params[:price]
     @product.BuyCount = 0
+    @product.hits = 0
     @product_id = Product.maximum(:product_id)
     @product.product_id = @product_id+1
 
@@ -58,6 +59,7 @@ class ProductsController < ApplicationController
 	@top.image_url1 = params[:image_url2]
 	@top.price = params[:price]
 	@top.buy_count = 0
+	@top.hits = 0
 	@top.product_id = @product.product_id
 	@top.color1 = params[:color1]
 	@top.size1 = params[:size1]
@@ -82,6 +84,7 @@ class ProductsController < ApplicationController
 	@pant.image_url1 = params[:image_url2]
 	@pant.price = params[:price]
 	@pant.buy_count = 0
+	@pant.hits = 0
 	@pant.product_id = @product.product_id
 	@pant.color1 = params[:color1]
 	@pant.size1 = params[:size1]
@@ -98,6 +101,18 @@ class ProductsController < ApplicationController
 	@pant.stock5 = params[:stock5]
 	@pant.stock6 = params[:stock6]
 	@pant.save
+    elsif @product.close_type2 == "Acc"
+	@acc = Accessory.new
+	@acc.main_title = params[:title]
+	@acc.description = params[:description]
+	@acc.main_image_url = params[:image_url]
+	@acc.image_url1 = params[:image_url2]
+	@acc.price = params[:price]
+	@acc.buy_count = 0
+	@acc.hits = 0
+	@acc.product_id = @product.product_id
+	@acc.stock1 = params[:stock1]
+	@acc.save
     end
 
     respond_to do |format|

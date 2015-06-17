@@ -1,21 +1,4 @@
 
-<<<<<<< HEAD
-<p>
-  <h3><b>Name:</b>
-  <%= @user.name %><br></h3>
-  <h3><strong>Address:</strong>
-  <%= @user.address1 %></h3>
-  <h3><strong>Phone:</strong>
-  <%= @user.phone_number %></h3>
-  <h3><strong>Birth date:</strong>
-  <%= @user.birth_date %></h3>
-  <h3><strong>E-mail:</strong>
-  <%= @user.e_mail %></h3>
-  <h3><strong>Gender:</strong>
-  <%= @user.gender %></h3>
-  
-</p>
-=======
 <table class="type07">
     <thead>
     <tr>
@@ -46,12 +29,15 @@
     </tr>
     <tr>
         <th scope="row">성별</th>
-        <td><%= @user.gender %></td>
+	<% if @user.gender==0 %>
+        	<td>남</td>
+	<% else %>
+        	<td>여</td>
+	<% end %>
     </tr>
     </tbody>
 </table>
 
->>>>>>> 7d8671e076ad16a95205a178d3763ec232066697
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>

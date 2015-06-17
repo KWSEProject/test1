@@ -14,16 +14,16 @@ class StoreController < ApplicationController
 
       if @condition != nil
  	if @condition == "구매횟수"
-		@products = Product.order(:BuyCount)
+		@products = Product.order(:BuyCount).reverse
 		@title = "구매횟수 조회결과"
 	elsif @condition == "추천횟수"
-		@products = Product.order(:hits)
+		@products = Product.order(:hits).reverse
 		@title = "추천횟수 조회결과"
 	elsif @condition == "최신등록순"
-		@products = Product.order(:updated_at)
+		@products = Product.order(:updated_at).reverse
 		@title = "최신등록순 조회결과"
 	else
-      		@products = Product.order(:price)
+      		@products = Product.order(:price).reverse
 		@title = "가격순 조회결과"
 	end
       else
@@ -35,12 +35,8 @@ class StoreController < ApplicationController
 		 @products = Pant.all
 		 @type = "Pant"
 	      when "ACC"
-		 @products = Acc.all
-		 @type = "Acc"
-	      when "SHOES"
-		 @products = Shoes.all
-		 @type = "Shoes"
-	      
+		 @products = Accessory.all
+		 @type = "Acc"      
 		 
 	      end
 	end
@@ -57,6 +53,8 @@ class StoreController < ApplicationController
          @products = Top.find_by_product_id(@id)
       elsif @type=="Pant"
          @products = Pant.find_by_product_id(@id)
+      else
+         @products = Accessory.find_by_product_id(@id)	
       end
    end
 

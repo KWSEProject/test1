@@ -171,6 +171,7 @@
     font: 13px Arial, Helvetica, sans-serif;
 }
 .form-style-2-heading{
+    text-shadow: #87CEEB 1px 3px; 
     font-weight: bold;
     font-style: italic;
     border-bottom: 2px solid #ddd;

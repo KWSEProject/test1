@@ -1,0 +1,19 @@
+table|accessories|accessories|56|CREATE TABLE "accessories" 
+
+
+
+("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
+
+"main_title" varchar, 
+"description" text, 
+"stock" decimal, 
+"main_image_url" varchar, 
+"image_url1" varchar, 
+"size" varchar, 
+"color" varchar, 
+"buy_count" decimal, 
+"product_id" decimal, 
+"price" decimal, 
+"created_at" datetime NOT NULL, 
+"updated_at" datetime NOT NULL, 
+stock1 decimal)

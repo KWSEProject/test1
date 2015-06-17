@@ -35,27 +35,6 @@
 		</fieldset>
 
 		<fieldset>
-			<div>
-				<h4>What about</h4>
-
-				<ul class="cd-form-list">
-					<li>
-						<input type="radio" name="radiobutton" id="cd-radio-1" checked>
-						<label for="cd-radio-1">Delivery</label>
-					</li>
-						
-					<li>
-						<input type="radio" name="radiobutton" id="cd-radio-2">
-						<label for="cd-radio-2">Product</label>
-					</li>
-
-					<li>
-						<input type="radio" name="radiobutton" id="cd-radio-3">
-						<label for="cd-radio-3">Etc</label>
-					</li>
-				</ul>
-			</div>
-
 			<div class="icon">
 				<label class="cd-label" for="cd-textarea">Project description</label>
       			<textarea class="message" name="content" id="cd-textarea" required></textarea>
